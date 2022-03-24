@@ -1,19 +1,23 @@
-import dict from "./dict.json";
-import { useEffect, useRef, useState } from "react";
 import {
-  Container,
-  TextInput,
-  Group,
+  ActionIcon,
   Box,
-  Paper,
-  Text,
-  ScrollArea,
-  Chips,
   Chip,
-  Kbd,
+  Chips,
+  Container,
+  Group,
   Highlight,
+  Kbd,
+  Mark,
+  Paper,
+  ScrollArea,
+  Text,
+  TextInput,
   Title,
 } from "@mantine/core";
+import { useEffect, useRef, useState } from "react";
+
+import { GitHub, Twitter } from "./Icons";
+import dict from "./dict.json";
 import { getHotkeyHandler } from "@mantine/hooks";
 
 type Dict = {
@@ -62,19 +66,48 @@ const App = () => {
         <Box
           sx={{
             display: "flex",
-            alignItems: "end",
+            alignItems: "center",
+            justifyContent: "space-between",
           }}
         >
-          <Title>엘든링 한-영 검색기</Title>
-          <Text
-            variant="link"
-            component="a"
-            href="https://twitter.com/plastik041"
-            target="_blank"
-            size="sm"
+          <Box
+            sx={{
+              display: "flex",
+            }}
           >
-            @plastik041
-          </Text>
+            <Title>엘든링 한-영 검색기</Title>
+            <Text
+              size="sm"
+              sx={(theme) => ({
+                color: theme.colors.gray[7],
+                alignSelf: "end",
+              })}
+            >
+              @plastik041
+            </Text>
+          </Box>
+          <Group spacing="xs">
+            <ActionIcon
+              component="a"
+              href="https://twitter.com/plastik041"
+              target="_blank"
+              variant="default"
+              size="lg"
+              title="개발자 트위터로 이동"
+            >
+              <Twitter />
+            </ActionIcon>
+            <ActionIcon
+              component="a"
+              href="https://github.com/plastic041/eldenring-kr-en"
+              target="_blank"
+              variant="default"
+              size="lg"
+              title="GitHub 저장소로 이동"
+            >
+              <GitHub />
+            </ActionIcon>
+          </Group>
         </Box>
         <Group grow direction="column">
           <TextInput
@@ -170,7 +203,7 @@ const App = () => {
           ) : (
             query && (
               <Text size="md" align="center">
-                검색 결과가 없습니다.
+                <Mark>{query}</Mark>에 대한 검색 결과가 없습니다.
               </Text>
             )
           )}
