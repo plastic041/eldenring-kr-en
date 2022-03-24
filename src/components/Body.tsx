@@ -11,9 +11,10 @@ import {
 import { useEffect, useRef, useState } from "react";
 
 import { Dict } from "../App";
+import { MagnifierIcon } from "../Icons";
 import ResultCard from "./ResultCard";
-import { getHotkeyHandler } from "@mantine/hooks";
 import dict from "../resources/dict.json";
+import { getHotkeyHandler } from "@mantine/hooks";
 
 const Body = () => {
   const [query, setQuery] = useState("");
@@ -57,8 +58,9 @@ const Body = () => {
       component="main"
     >
       <TextInput
-        type="text"
+        aria-label="검색"
         placeholder="한국어로 검색"
+        icon={<MagnifierIcon />}
         ref={inputRef}
         onKeyDown={getHotkeyHandler([["Enter", onSearch]])}
         rightSectionWidth={60}
