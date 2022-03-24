@@ -1,4 +1,4 @@
-export const GitHub = () => {
+export const GitHubIcon = () => {
   return (
     <svg
       width="15"
@@ -17,7 +17,7 @@ export const GitHub = () => {
   );
 };
 
-export const Twitter = () => {
+export const TwitterIcon = () => {
   return (
     <svg
       width="15"
@@ -36,7 +36,7 @@ export const Twitter = () => {
   );
 };
 
-export const ClipboardCopy = () => {
+export const ClipboardCopyIcon = () => {
   return (
     <svg
       width="15"
@@ -55,7 +55,7 @@ export const ClipboardCopy = () => {
   );
 };
 
-export const Check = () => {
+export const CheckIcon = () => {
   return (
     <svg
       width="15"

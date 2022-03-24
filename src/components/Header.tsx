@@ -1,5 +1,5 @@
 import { ActionIcon, Box, Text, Title } from "@mantine/core";
-import { GitHub, Twitter } from "../Icons";
+import { GitHubIcon, TwitterIcon } from "../Icons";
 
 const Header = () => {
   return (
@@ -47,7 +47,7 @@ const Header = () => {
               size="lg"
               title="개발자 트위터로 이동"
             >
-              <Twitter />
+              <TwitterIcon />
             </ActionIcon>
           </li>
           <li>
@@ -59,7 +59,7 @@ const Header = () => {
               size="lg"
               title="GitHub 저장소로 이동"
             >
-              <GitHub />
+              <GitHubIcon />
             </ActionIcon>
           </li>
         </Box>
