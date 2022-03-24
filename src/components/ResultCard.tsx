@@ -69,6 +69,7 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
             transition="pop"
           >
             <ActionIcon
+              size="sm"
               variant="hover"
               onClick={() => clipboard.copy(en)}
               title={`${en} 복사`}
