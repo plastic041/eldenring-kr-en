@@ -14,9 +14,9 @@ import {
   TextInput,
   Title,
 } from "@mantine/core";
+import { GitHub, Twitter } from "./Icons";
 import { useEffect, useRef, useState } from "react";
 
-import { GitHub, Twitter } from "./Icons";
 import dict from "./dict.json";
 import { getHotkeyHandler } from "@mantine/hooks";
 
