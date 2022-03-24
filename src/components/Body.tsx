@@ -99,15 +99,17 @@ const Body = () => {
             ))}
           </Box>
         ) : categories.length === 0 ? (
-          // 검색 결과가 없을 때
-          <Text size="sm" color="red">
+          // 카테고리 선택이 없을 때
+          <Text size="sm" align="center" color="red">
             카테고리를 하나 이상 선택해주세요.
           </Text>
         ) : query ? (
+          // 검색 결과가 없을 때
           <Text size="md" align="center">
             <Mark>{query}</Mark>에 대한 검색 결과가 없습니다.
           </Text>
         ) : (
+          // 검색어가 없을 때
           <Text size="md" align="center">
             검색어를 입력해주세요.
           </Text>
