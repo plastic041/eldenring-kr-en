@@ -1,7 +1,8 @@
+import { Global, MantineProvider } from "@mantine/core";
+
+import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-import { Global, MantineProvider } from "@mantine/core";
 
 ReactDOM.render(
   <React.StrictMode>
