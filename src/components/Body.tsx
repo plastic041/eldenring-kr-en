@@ -1,8 +1,8 @@
 import {
   Box,
+  Button,
   Chip,
   Chips,
-  Kbd,
   Mark,
   ScrollArea,
   Text,
@@ -57,19 +57,25 @@ const Body = () => {
       })}
       component="main"
     >
-      <TextInput
-        aria-label="검색"
-        placeholder="한국어로 검색"
-        icon={<MagnifierIcon />}
-        ref={inputRef}
-        onKeyDown={getHotkeyHandler([["Enter", onSearch]])}
-        rightSectionWidth={60}
-        rightSection={
-          <div style={{ display: "flex", alignItems: "center" }}>
-            <Kbd>엔터↲</Kbd>
-          </div>
-        }
-      />
+      <Box
+        sx={(theme) => ({
+          display: "flex",
+          flexDirection: "row",
+          gap: theme.spacing.xs,
+        })}
+      >
+        <TextInput
+          sx={{
+            flexGrow: 1,
+          }}
+          aria-label="검색어 "
+          placeholder="한국어나 영어로 검색"
+          icon={<MagnifierIcon />}
+          ref={inputRef}
+          onKeyDown={getHotkeyHandler([["Enter", onSearch]])}
+        />
+        <Button onClick={onSearch}>검색</Button>
+      </Box>
       <Chips
         multiple
         defaultValue={categories}
