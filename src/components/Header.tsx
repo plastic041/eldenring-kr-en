@@ -4,6 +4,7 @@ import {
   MediaQuery,
   Text,
   Title,
+  Tooltip,
   useMantineColorScheme,
   useMantineTheme,
 } from "@mantine/core";
@@ -52,7 +53,6 @@ const Header = () => {
             size="xs"
             sx={{
               color: dark ? theme.colors.dark[2] : theme.colors.gray[7],
-              // alignSelf: "end",
             }}
           >
             @plastik041
@@ -72,41 +72,67 @@ const Header = () => {
         >
           <li>
             {/* 다크 모드 토글 버튼 */}
-            <ActionIcon
-              variant="filled"
-              size="lg"
-              title="다크 모드 토글"
-              color={dark ? "yellow" : "blue"}
-              onClick={() => toggleColorScheme()}
+            <Tooltip
+              label={`${dark ? "밝은 화면" : "어두운 화면"} 모드로 전환`}
+              position="bottom"
+              transition="fade"
+              withArrow
+              openDelay={500}
+              color={dark ? "gray" : "blue"}
             >
-              {dark ? <SunIcon /> : <MoonIcon />}
-            </ActionIcon>
+              <ActionIcon
+                variant="filled"
+                size="lg"
+                aria-label="다크 모드 토글"
+                color={dark ? "yellow" : "blue"}
+                onClick={() => toggleColorScheme()}
+              >
+                {dark ? <SunIcon /> : <MoonIcon />}
+              </ActionIcon>
+            </Tooltip>
           </li>
           <li>
             {/* 트위터 버튼 */}
-            <ActionIcon
-              component="a"
-              href="https://twitter.com/plastik041"
-              target="_blank"
-              variant="filled"
-              size="lg"
-              title="개발자 트위터로 이동"
+            <Tooltip
+              label="개발자 트위터로 이동"
+              position="bottom"
+              transition="fade"
+              withArrow
+              openDelay={500}
             >
-              <TwitterIcon />
-            </ActionIcon>
+              <ActionIcon
+                component="a"
+                href="https://twitter.com/plastik041"
+                target="_blank"
+                variant="filled"
+                size="lg"
+                aria-label="개발자 트위터로 이동"
+              >
+                <TwitterIcon />
+              </ActionIcon>
+            </Tooltip>
           </li>
           <li>
             {/* 깃허브 버튼 */}
-            <ActionIcon
-              component="a"
-              href="https://github.com/plastic041/eldenring-kr-en"
-              target="_blank"
-              variant="filled"
-              size="lg"
-              title="GitHub 저장소로 이동"
+            <Tooltip
+              label="GitHub 저장소로 이동"
+              position="bottom"
+              placement="end"
+              transition="fade"
+              withArrow
+              openDelay={500}
             >
-              <GitHubIcon />
-            </ActionIcon>
+              <ActionIcon
+                component="a"
+                href="https://github.com/plastic041/eldenring-kr-en"
+                target="_blank"
+                variant="filled"
+                size="lg"
+                aria-label="GitHub 저장소로 이동"
+              >
+                <GitHubIcon />
+              </ActionIcon>
+            </Tooltip>
           </li>
         </Box>
       </nav>
