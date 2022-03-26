@@ -1,5 +1,5 @@
 import { ActionIcon, Box, Text, Title } from "@mantine/core";
-import { GitHubIcon, TwitterIcon } from "../Icons";
+import { GitHubIcon, TwitterIcon } from "../resources/Icons";
 
 const Header = () => {
   return (

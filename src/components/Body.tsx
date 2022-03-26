@@ -11,7 +11,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 
 import { Dict } from "../App";
-import { MagnifierIcon } from "../Icons";
+import { MagnifierIcon } from "../resources/Icons";
 import ResultCard from "./ResultCard";
 import dict from "../resources/dict.json";
 import { getHotkeyHandler } from "@mantine/hooks";
@@ -69,7 +69,7 @@ const Body = () => {
           sx={{
             flexGrow: 1,
           }}
-          aria-label="검색어 "
+          aria-label="검색어 입력"
           placeholder="한국어나 영어로 검색"
           icon={<MagnifierIcon />}
           ref={inputRef}
