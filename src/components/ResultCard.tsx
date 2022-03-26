@@ -5,6 +5,7 @@ import {
   Paper,
   Text,
   Tooltip,
+  useMantineColorScheme,
 } from "@mantine/core";
 import { CheckIcon, ClipboardCopyIcon } from "../resources/Icons";
 
@@ -47,6 +48,9 @@ const ResultWord = ({ query, word }: { query: string; word: string }) => {
 };
 
 const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
+  const { colorScheme } = useMantineColorScheme();
+  const dark = colorScheme === "dark";
+
   return (
     <Paper
       withBorder
@@ -64,13 +68,13 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
           "& dt": {
             width: "3rem",
             marginRight: theme.spacing.xs,
-            color: theme.colors.gray[7],
+            color: dark ? theme.colors.dark[2] : theme.colors.gray[7],
             flexShrink: 0,
           },
 
           "& dd": {
             margin: 0,
-            color: theme.colors.gray[9],
+            color: dark ? theme.colors.dark[0] : theme.colors.gray[9],
           },
         },
       })}
