@@ -57,6 +57,10 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
         display: "flex",
         flexDirection: "column",
         margin: 0,
+        backgroundColor:
+          theme.colorScheme === "dark"
+            ? theme.colors.dark[4]
+            : theme.colors.gray[0],
 
         "& div": {
           display: "flex",
@@ -66,7 +70,7 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
             marginRight: theme.spacing.xs,
             color:
               theme.colorScheme === "dark"
-                ? theme.colors.dark[2]
+                ? theme.colors.dark[1]
                 : theme.colors.gray[7],
             flexShrink: 0,
           },
