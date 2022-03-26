@@ -102,7 +102,7 @@ const Body = () => {
           </Box>
         ) : categories.length === 0 ? (
           // 카테고리 선택이 없을 때
-          <Text size="sm" align="center" color="red">
+          <Text size="md" align="center" color="red">
             카테고리를 하나 이상 선택해주세요.
           </Text>
         ) : query ? (
