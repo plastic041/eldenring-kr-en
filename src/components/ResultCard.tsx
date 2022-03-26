@@ -3,48 +3,44 @@ import {
   Box,
   Highlight,
   Paper,
+  Space,
   Text,
   Tooltip,
 } from "@mantine/core";
-import { CheckIcon, ClipboardCopyIcon } from "../Icons";
+import { CheckIcon, ClipboardCopyIcon } from "../resources/Icons";
 
 import { Dict } from "../App";
 import { useClipboard } from "@mantine/hooks";
 
-const ResultWord = ({
-  query,
-  word,
-  isCopied,
-  copy,
-}: {
-  query: string;
-  word: string;
-  isCopied: boolean;
-  copy: (valueToCopy: any) => void;
-}) => {
+const ResultWord = ({ query, word }: { query: string; word: string }) => {
+  const clipboard = useClipboard({
+    timeout: 1000,
+  });
+
   return (
     <Box
-      sx={{
+      sx={(theme) => ({
         display: "flex",
         alignItems: "center",
-      }}
+        gap: theme.spacing.xs,
+      })}
     >
       <Text>
         <Highlight highlight={query}>{word}</Highlight>
       </Text>
       <Tooltip
-        label={isCopied ? `복사됨` : `복사`}
-        color={isCopied ? "green" : "gray"}
+        label={clipboard.copied ? `복사됨` : `복사`}
+        color={clipboard.copied ? "green" : "gray"}
         transition="pop"
       >
         <ActionIcon
           size="sm"
-          variant="hover"
-          onClick={copy}
+          variant="transparent"
+          onClick={() => clipboard.copy(word)}
           title={`${word} 복사`}
-          color={isCopied ? "green" : "gray"}
+          color={clipboard.copied ? "green" : "gray"}
         >
-          {isCopied ? <CheckIcon /> : <ClipboardCopyIcon />}
+          {clipboard.copied ? <CheckIcon /> : <ClipboardCopyIcon />}
         </ActionIcon>
       </Tooltip>
     </Box>
@@ -52,10 +48,6 @@ const ResultWord = ({
 };
 
 const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
-  const clipboard = useClipboard({
-    timeout: 1000,
-  });
-
   return (
     <Paper
       withBorder
@@ -87,23 +79,13 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
       <div>
         <dt>한국어</dt>
         <dd>
-          <ResultWord
-            query={query}
-            word={ko}
-            isCopied={clipboard.copied}
-            copy={() => clipboard.copy(ko)}
-          />
+          <ResultWord query={query} word={ko} />
         </dd>
       </div>
       <div>
         <dt>영어</dt>
         <dd>
-          <ResultWord
-            query={query}
-            word={en}
-            isCopied={clipboard.copied}
-            copy={() => clipboard.copy(en)}
-          />
+          <ResultWord query={query} word={en} />
         </dd>
       </div>
       <div>
