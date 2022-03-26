@@ -27,9 +27,10 @@ const Body = () => {
     if (query) {
       const find = dict.filter((item: Dict) => {
         const isCategoryInclude = categories.includes(item.category);
-        const isKoInclude = item.ko.includes(query);
+        const isIncludeQuery =
+          item.ko.includes(query) || item.en.toLowerCase().includes(query);
 
-        return isCategoryInclude && isKoInclude;
+        return isCategoryInclude && isIncludeQuery;
       });
       setResult(find);
     } else {
@@ -39,7 +40,7 @@ const Body = () => {
 
   const onSearch = () => {
     const value = inputRef.current?.value || "";
-    setQuery(value.trim());
+    setQuery(value.trim().toLowerCase());
   };
 
   useEffect(() => {

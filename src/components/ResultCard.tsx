@@ -11,6 +11,46 @@ import { CheckIcon, ClipboardCopyIcon } from "../Icons";
 import { Dict } from "../App";
 import { useClipboard } from "@mantine/hooks";
 
+const ResultWord = ({
+  query,
+  word,
+  isCopied,
+  copy,
+}: {
+  query: string;
+  word: string;
+  isCopied: boolean;
+  copy: (valueToCopy: any) => void;
+}) => {
+  return (
+    <Box
+      sx={{
+        display: "flex",
+        alignItems: "center",
+      }}
+    >
+      <Text>
+        <Highlight highlight={query}>{word}</Highlight>
+      </Text>
+      <Tooltip
+        label={isCopied ? `복사됨` : `복사`}
+        color={isCopied ? "green" : "gray"}
+        transition="pop"
+      >
+        <ActionIcon
+          size="sm"
+          variant="hover"
+          onClick={copy}
+          title={`${word} 복사`}
+          color={isCopied ? "green" : "gray"}
+        >
+          {isCopied ? <CheckIcon /> : <ClipboardCopyIcon />}
+        </ActionIcon>
+      </Tooltip>
+    </Box>
+  );
+};
+
 const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
   const clipboard = useClipboard({
     timeout: 1000,
@@ -47,33 +87,24 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
       <div>
         <dt>한국어</dt>
         <dd>
-          <Highlight highlight={query}>{ko}</Highlight>
+          <ResultWord
+            query={query}
+            word={ko}
+            isCopied={clipboard.copied}
+            copy={() => clipboard.copy(ko)}
+          />
         </dd>
       </div>
       <div>
         <dt>영어</dt>
-        <Box
-          sx={(theme) => ({
-            display: "flex",
-            alignItems: "center",
-          })}
-        >
-          <Text>{en}</Text>
-          <Tooltip
-            label={clipboard.copied ? `복사됨` : `복사`}
-            transition="pop"
-          >
-            <ActionIcon
-              size="sm"
-              variant="hover"
-              onClick={() => clipboard.copy(en)}
-              title={`${en} 복사`}
-              color={clipboard.copied ? "green" : "gray"}
-            >
-              {clipboard.copied ? <CheckIcon /> : <ClipboardCopyIcon />}
-            </ActionIcon>
-          </Tooltip>
-        </Box>
+        <dd>
+          <ResultWord
+            query={query}
+            word={en}
+            isCopied={clipboard.copied}
+            copy={() => clipboard.copy(en)}
+          />
+        </dd>
       </div>
       <div>
         <dt>분류</dt>
@@ -82,4 +113,5 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
     </Paper>
   );
 };
+
 export default ResultCard;
