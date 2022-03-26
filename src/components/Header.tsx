@@ -1,15 +1,18 @@
 import {
   ActionIcon,
   Box,
+  MediaQuery,
   Text,
   Title,
   useMantineColorScheme,
+  useMantineTheme,
 } from "@mantine/core";
 import { GitHubIcon, MoonIcon, SunIcon, TwitterIcon } from "../resources/Icons";
 
 const Header = () => {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
   const dark = colorScheme === "dark";
+  const theme = useMantineTheme();
 
   return (
     <Box
@@ -20,23 +23,43 @@ const Header = () => {
       }}
       component="header"
     >
-      <Box
-        sx={{
-          display: "flex",
+      <MediaQuery
+        smallerThan="xs"
+        styles={{
+          flexDirection: "column",
+          alignItems: "start",
+          gap: 0,
         }}
       >
-        <Title>엘든링 한영 검색기</Title>
-        <Text
-          size="sm"
-          sx={(theme) => ({
-            color: dark ? theme.colors.dark[2] : theme.colors.gray[7],
-            alignSelf: "end",
-          })}
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "end",
+            justifyContent: "center",
+            gap: theme.spacing.xs,
+          }}
         >
-          @plastik041
-        </Text>
-      </Box>
-      <Box component="nav">
+          <MediaQuery
+            smallerThan="xs"
+            styles={{
+              fontSize: theme.fontSizes.xl,
+            }}
+          >
+            <Title sx={{ wordBreak: "keep-all" }}>엘든링 한영사전</Title>
+          </MediaQuery>
+          <Text
+            size="xs"
+            sx={{
+              color: dark ? theme.colors.dark[2] : theme.colors.gray[7],
+              // alignSelf: "end",
+            }}
+          >
+            @plastik041
+          </Text>
+        </Box>
+      </MediaQuery>
+      <nav>
         <Box
           component="ul"
           sx={(theme) => ({
@@ -86,7 +109,7 @@ const Header = () => {
             </ActionIcon>
           </li>
         </Box>
-      </Box>
+      </nav>
     </Box>
   );
 };
