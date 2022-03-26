@@ -30,13 +30,9 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
         "& div": {
           display: "flex",
 
-          "& dt, & dd": {
-            display: "inline",
-          },
-
           "& dt": {
             width: "3rem",
-            marginRight: "1rem",
+            marginRight: theme.spacing.xs,
             color: theme.colors.gray[7],
             flexShrink: 0,
           },
@@ -44,7 +40,6 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
           "& dd": {
             margin: 0,
             color: theme.colors.gray[9],
-            whiteSpace: "pre-wrap",
           },
         },
       })}
