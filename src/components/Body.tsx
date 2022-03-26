@@ -52,7 +52,7 @@ const Body = () => {
         display: "flex",
         flexDirection: "column",
         gap: theme.spacing.md,
-        height: 1,
+        height: "1px",
         flexGrow: 1,
       })}
       component="main"
