@@ -9,6 +9,7 @@ import Body from "./components/Body";
 import type { ColorScheme } from "@mantine/core";
 import Header from "./components/Header";
 import { useState } from "react";
+import { useColorScheme } from "@mantine/hooks";
 
 export type Dict = {
   ko: string;
@@ -17,7 +18,9 @@ export type Dict = {
 };
 
 const App = () => {
-  const [colorScheme, setColorScheme] = useState<ColorScheme>("light");
+  const preferredColorScheme = useColorScheme();
+  const [colorScheme, setColorScheme] =
+    useState<ColorScheme>(preferredColorScheme);
   const toggleColorScheme = (value?: ColorScheme) =>
     setColorScheme(value || (colorScheme === "light" ? "dark" : "light"));
 
