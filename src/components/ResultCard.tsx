@@ -3,7 +3,6 @@ import {
   Box,
   Highlight,
   Paper,
-  Space,
   Text,
   Tooltip,
 } from "@mantine/core";
