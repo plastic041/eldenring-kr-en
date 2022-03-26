@@ -94,7 +94,6 @@ const Body = () => {
         {results?.length ? (
           // 검색 결과가 있을 때
           <Box
-            className="search-results"
             sx={(theme) => ({
               display: "flex",
               flexDirection: "column",
