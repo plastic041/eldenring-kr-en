@@ -16,7 +16,7 @@ const Header = () => {
           display: "flex",
         }}
       >
-        <Title>엘든링 한-영 검색기</Title>
+        <Title>엘든링 한영 검색기</Title>
         <Text
           size="sm"
           sx={(theme) => ({
