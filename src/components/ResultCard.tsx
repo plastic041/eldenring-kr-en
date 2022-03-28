@@ -62,7 +62,7 @@ const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
             ? theme.colors.dark[4]
             : theme.colors.gray[0],
 
-        "& div": {
+        "& > div": {
           display: "flex",
 
           "& dt": {
