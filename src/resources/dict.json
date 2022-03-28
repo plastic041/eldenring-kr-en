@@ -2475,7 +2475,11 @@
     "en": "Spectral Steed Whistle",
     "category": "아이템"
   },
-  { "ko": "거대한 룬의 환영", "en": "Phantom Great Rune", "category": "아이템" },
+  {
+    "ko": "거대한 룬의 환영",
+    "en": "Phantom Great Rune",
+    "category": "아이템"
+  },
   {
     "ko": "갈고리를 부르는 손가락약",
     "en": "Furlcalling Finger Remedy",
@@ -2487,7 +2491,11 @@
     "en": "Godrick's Great Rune",
     "category": "아이템"
   },
-  { "ko": "라단의 거대한 룬", "en": "Radahn's Great Rune", "category": "아이템" },
+  {
+    "ko": "라단의 거대한 룬",
+    "en": "Radahn's Great Rune",
+    "category": "아이템"
+  },
   {
     "ko": "모르고트의 거대한 룬",
     "en": "Morgott's Great Rune",
@@ -2551,10 +2559,18 @@
     "en": "Roped Lightning Pot",
     "category": "아이템"
   },
-  { "ko": "끈 달린 대변 항아리", "en": "Roped Fetid Pot", "category": "아이템" },
+  {
+    "ko": "끈 달린 대변 항아리",
+    "en": "Roped Fetid Pot",
+    "category": "아이템"
+  },
   { "ko": "끈 달린 독 항아리", "en": "Roped Poison Pot", "category": "아이템" },
   { "ko": "끈 달린 기름 항아리", "en": "Roped Oil Pot", "category": "아이템" },
-  { "ko": "끈 달린 마력 항아리", "en": "Roped Magic Pot", "category": "아이템" },
+  {
+    "ko": "끈 달린 마력 항아리",
+    "en": "Roped Magic Pot",
+    "category": "아이템"
+  },
   { "ko": "끈 달린 파리 항아리", "en": "Roped Fly Pot", "category": "아이템" },
   {
     "ko": "끈 달린 빙결 항아리",
@@ -2577,7 +2593,11 @@
   { "ko": "수면 항아리", "en": "Sleep Pot", "category": "아이템" },
   { "ko": "원혼 항아리", "en": "Rancor Pot", "category": "아이템" },
   { "ko": "마력 항아리", "en": "Magic Pot", "category": "아이템" },
-  { "ko": "학원의 마력 항아리", "en": "Academy Magic Pot", "category": "아이템" },
+  {
+    "ko": "학원의 마력 항아리",
+    "en": "Academy Magic Pot",
+    "category": "아이템"
+  },
   { "ko": "부패 항아리", "en": "Rot Pot", "category": "아이템" },
   { "ko": "로어 레이즌", "en": "Rowa Raisin", "category": "아이템" },
   { "ko": "스위트 레이즌", "en": "Sweet Raisin", "category": "아이템" },
@@ -2593,7 +2613,11 @@
   { "ko": "발광 이끼약", "en": "Clarifying Boluses", "category": "아이템" },
   { "ko": "거북 목 절임", "en": "Pickled Turtle Neck", "category": "아이템" },
   { "ko": "면역의 육포", "en": "Immunizing Cured Meat", "category": "아이템" },
-  { "ko": "강건의 육포", "en": "Invigorating Cured Meat", "category": "아이템" },
+  {
+    "ko": "강건의 육포",
+    "en": "Invigorating Cured Meat",
+    "category": "아이템"
+  },
   { "ko": "이성의 육포", "en": "Clarifying Cured Meat", "category": "아이템" },
   { "ko": "얼룩색 육포", "en": "Dappled Cured Meat", "category": "아이템" },
   {
@@ -2601,13 +2625,21 @@
     "en": "Spellproof Dried Liver",
     "category": "아이템"
   },
-  { "ko": "항염의 말린 간", "en": "Fireproof Dried Liver", "category": "아이템" },
+  {
+    "ko": "항염의 말린 간",
+    "en": "Fireproof Dried Liver",
+    "category": "아이템"
+  },
   {
     "ko": "항뢰의 말린 간",
     "en": "Lightningproof Dried Liver",
     "category": "아이템"
   },
-  { "ko": "항성의 말린 간", "en": "Holyproof Dried Liver", "category": "아이템" },
+  {
+    "ko": "항성의 말린 간",
+    "en": "Holyproof Dried Liver",
+    "category": "아이템"
+  },
   {
     "ko": "새 다리 백은 절임",
     "en": "Silver-Pickled Fowl Foot",
@@ -2713,7 +2745,11 @@
   { "ko": "유적석", "en": "Ruin Fragment", "category": "아이템" },
   { "ko": "냄새나는 고깃덩어리", "en": "Fetid Flesh", "category": "아이템" },
   { "ko": "폭발석", "en": "Explosive Stone", "category": "아이템" },
-  { "ko": "폭발석 덩어리", "en": "Explosive Stone Clump", "category": "아이템" },
+  {
+    "ko": "폭발석 덩어리",
+    "en": "Explosive Stone Clump",
+    "category": "아이템"
+  },
   { "ko": "독석", "en": "Poisoned Stone", "category": "아이템" },
   { "ko": "독석 덩어리", "en": "Poisoned Stone Clump", "category": "아이템" },
   { "ko": "무지개석", "en": "Rainbow Stone", "category": "아이템" },
@@ -2856,7 +2892,11 @@
     "category": "아이템"
   },
   { "ko": "흉조의 태아", "en": "Omen Bairn", "category": "아이템" },
-  { "ko": "왕가의 흉조의 태아", "en": "Regal Omen Bairn", "category": "아이템" },
+  {
+    "ko": "왕가의 흉조의 태아",
+    "en": "Regal Omen Bairn",
+    "category": "아이템"
+  },
   { "ko": "미란다의 기도", "en": "Miranda's Prayer", "category": "아이템" },
   { "ko": "뻐꾸기의 휘석", "en": "Cuckoo Glintstone", "category": "아이템" },
   { "ko": "의태의 베일", "en": "Mimic's Veil", "category": "아이템" },
@@ -2868,7 +2908,11 @@
   },
   { "ko": "중력석 파편", "en": "Gravity Stone Fan", "category": "아이템" },
   { "ko": "중력석 덩어리", "en": "Gravity Stone Chunk", "category": "아이템" },
-  { "ko": "주령을 부르는 종", "en": "Wraith Calling Bell", "category": "아이템" },
+  {
+    "ko": "주령을 부르는 종",
+    "en": "Wraith Calling Bell",
+    "category": "아이템"
+  },
   { "ko": "성수기름", "en": "Holy Water Grease", "category": "아이템" },
   { "ko": "따스함의 돌", "en": "Warming Stone", "category": "아이템" },
   { "ko": "미친 불의 돌", "en": "Frenzyflame Stone", "category": "아이템" },
@@ -2923,7 +2967,11 @@
   { "ko": "로레타의 대궁", "en": "Loretta's Greatbow", "category": "아이템" },
   { "ko": "로레타의 묘기", "en": "Loretta's Mastery", "category": "아이템" },
   { "ko": "마술의 휘검", "en": "Magic Glintblade", "category": "아이템" },
-  { "ko": "휘석의 얼음덩어리", "en": "Glintstone Icecrag", "category": "아이템" },
+  {
+    "ko": "휘석의 얼음덩어리",
+    "en": "Glintstone Icecrag",
+    "category": "아이템"
+  },
   { "ko": "자미엘의 얼음 폭풍", "en": "Zamor Ice Storm", "category": "아이템" },
   { "ko": "얼음의 안개", "en": "Freezing Mist", "category": "아이템" },
   { "ko": "카리아의 대검", "en": "Carian Greatsword", "category": "아이템" },
@@ -2957,7 +3005,11 @@
   { "ko": "죄의 가시", "en": "Briars of Sin", "category": "아이템" },
   { "ko": "벌의 가시", "en": "Briars of Punishment", "category": "아이템" },
   { "ko": "원혼 부르기", "en": "Rancorcall", "category": "아이템" },
-  { "ko": "옛 죽음의 영혼", "en": "Ancient Death Rancor", "category": "아이템" },
+  {
+    "ko": "옛 죽음의 영혼",
+    "en": "Ancient Death Rancor",
+    "category": "아이템"
+  },
   {
     "ko": "폭발하는 영혼 화염",
     "en": "Explosive Ghostflame",
@@ -2997,10 +3049,18 @@
   { "ko": "모두 불태워라!", "en": "Burn, O Flame!", "category": "아이템" },
   { "ko": "흑염", "en": "Black Flame", "category": "아이템" },
   { "ko": "불이여 솟구쳐라", "en": "Surge, O Flame!", "category": "아이템" },
-  { "ko": "쓸어버리는 흑염", "en": "Scouring Black Flame", "category": "아이템" },
+  {
+    "ko": "쓸어버리는 흑염",
+    "en": "Scouring Black Flame",
+    "category": "아이템"
+  },
   { "ko": "흑염의 의식", "en": "Black Flame Ritual", "category": "아이템" },
   { "ko": "흑염의 칼날", "en": "Black Flame Blade", "category": "아이템" },
-  { "ko": "흑염의 수호", "en": "Black Flame's Protection", "category": "아이템" },
+  {
+    "ko": "흑염의 수호",
+    "en": "Black Flame's Protection",
+    "category": "아이템"
+  },
   { "ko": "귀족의 배짱", "en": "Noble Presence", "category": "아이템" },
   { "ko": "혈염의 발톱자국", "en": "Bloodflame Talons", "category": "아이템" },
   { "ko": "피의 수여", "en": "Bloodboon", "category": "아이템" },
@@ -3041,7 +3101,11 @@
   { "ko": "어둠", "en": "Darkness", "category": "아이템" },
   { "ko": "황금 나무에 맹세코", "en": "Golden Vow", "category": "아이템" },
   { "ko": "빛고리", "en": "Discus of Light", "category": "아이템" },
-  { "ko": "세 개의 빛고리", "en": "Triple Rings of Light", "category": "아이템" },
+  {
+    "ko": "세 개의 빛고리",
+    "en": "Triple Rings of Light",
+    "category": "아이템"
+  },
   {
     "ko": "라다곤의 빛고리",
     "en": "Radagon's Rings of Light",
@@ -3094,7 +3158,11 @@
   { "ko": "용염", "en": "Dragonfire", "category": "아이템" },
   { "ko": "아길의 화염", "en": "Agheel's Flame", "category": "아이템" },
   { "ko": "용암 브레스", "en": "Magma Breath", "category": "아이템" },
-  { "ko": "테오드릭스의 용암", "en": "Theodorix's Magma", "category": "아이템" },
+  {
+    "ko": "테오드릭스의 용암",
+    "en": "Theodorix's Magma",
+    "category": "아이템"
+  },
   { "ko": "용빙", "en": "Dragonice", "category": "아이템" },
   {
     "ko": "볼레아리스의 얼음 안개",
@@ -3182,7 +3250,11 @@
     "category": "아이템"
   },
   { "ko": "암월의 반지", "en": "Dark Moon Ring", "category": "아이템" },
-  { "ko": "손가락 자국의 포도", "en": "Fingerprint Grape", "category": "아이템" },
+  {
+    "ko": "손가락 자국의 포도",
+    "en": "Fingerprint Grape",
+    "category": "아이템"
+  },
   {
     "ko": "화산관에서 보낸 편지",
     "en": "Letter from Volcano Manor",
@@ -3248,7 +3320,11 @@
     "en": "Sellian Sealbreaker",
     "category": "아이템"
   },
-  { "ko": "번데기들의 유품", "en": "Chrysalids' Memento", "category": "아이템" },
+  {
+    "ko": "번데기들의 유품",
+    "en": "Chrysalids' Memento",
+    "category": "아이템"
+  },
   { "ko": "검은 칼날의 각인", "en": "Black Knifeprint", "category": "아이템" },
   {
     "ko": "베르나르에게 보내는 편지",
@@ -3298,7 +3374,11 @@
     "en": "Asimi, Silver Chrysalid",
     "category": "아이템"
   },
-  { "ko": "무구한 금의 침", "en": "Unalloyed Gold Needle", "category": "아이템" },
+  {
+    "ko": "무구한 금의 침",
+    "en": "Unalloyed Gold Needle",
+    "category": "아이템"
+  },
   { "ko": "하수 감옥 열쇠", "en": "Sewer-Gaol Key", "category": "아이템" },
   { "ko": "약속 장소 지도", "en": "Meeting Place Map", "category": "아이템" },
   {
@@ -3311,7 +3391,11 @@
     "en": "Homing Instinct Painting",
     "category": "아이템"
   },
-  { "ko": "그림 「재탄」", "en": "Resurrection Painting", "category": "아이템" },
+  {
+    "ko": "그림 「재탄」",
+    "en": "Resurrection Painting",
+    "category": "아이템"
+  },
   {
     "ko": "그림 「영웅의 노래」",
     "en": "Champion's Song Painting",
@@ -3324,7 +3408,11 @@
     "en": "Flightless Bird Painting",
     "category": "아이템"
   },
-  { "ko": "그림 「붉은 사자」", "en": "Redmane Painting", "category": "아이템" },
+  {
+    "ko": "그림 「붉은 사자」",
+    "en": "Redmane Painting",
+    "category": "아이템"
+  },
   { "ko": "조라야스의 편지", "en": "Zorayas's Letter", "category": "아이템" },
   {
     "ko": "알렉산더의 내용물",
@@ -3469,14 +3557,22 @@
     "en": "Note: Demi-human Mobs",
     "category": "아이템"
   },
-  { "ko": "문서 「육지멍게」", "en": "Note: Land Squirts", "category": "아이템" },
+  {
+    "ko": "문서 「육지멍게」",
+    "en": "Note: Land Squirts",
+    "category": "아이템"
+  },
   {
     "ko": "문서 「중력의 힘」",
     "en": "Note: Gravity's Advantage",
     "category": "아이템"
   },
   { "ko": "문서 「망령」", "en": "Note: Revenants", "category": "아이템" },
-  { "ko": "문서 「역참터」", "en": "Note: Waypoint Ruins", "category": "아이템" },
+  {
+    "ko": "문서 「역참터」",
+    "en": "Note: Waypoint Ruins",
+    "category": "아이템"
+  },
   { "ko": "문서 「전송문」", "en": "Note: Gateway", "category": "아이템" },
   {
     "ko": "문서 「미켈라의 침」",
@@ -3516,7 +3612,11 @@
     "en": "Two Fingers' Prayerbook",
     "category": "아이템"
   },
-  { "ko": "암부의 기도서", "en": "Assassin's Prayerbook", "category": "아이템" },
+  {
+    "ko": "암부의 기도서",
+    "en": "Assassin's Prayerbook",
+    "category": "아이템"
+  },
   {
     "ko": "황금 나무의 기도서",
     "en": "Erdtree Prayerbook",
@@ -3524,7 +3624,11 @@
   },
   { "ko": "황금 나무의 고문서", "en": "Erdtree Codex", "category": "아이템" },
   { "ko": "황금률원론", "en": "Golden Order Principia", "category": "아이템" },
-  { "ko": "황금률 원론", "en": "Golden Order Principles", "category": "아이템" },
+  {
+    "ko": "황금률 원론",
+    "en": "Golden Order Principles",
+    "category": "아이템"
+  },
   {
     "ko": "용신앙의 기도서",
     "en": "Dragon Cult Prayerbook",
@@ -3537,7 +3641,11 @@
   },
   { "ko": "학원의 스크롤", "en": "Academy Scroll", "category": "아이템" },
   { "ko": "피디의 방울", "en": "Pidia's Bell Bearing", "category": "아이템" },
-  { "ko": "셀브스의 방울", "en": "Seluvis's Bell Bearing", "category": "아이템" },
+  {
+    "ko": "셀브스의 방울",
+    "en": "Seluvis's Bell Bearing",
+    "category": "아이템"
+  },
   { "ko": "패치의 방울", "en": "Patches' Bell Bearing", "category": "아이템" },
   { "ko": "셀렌의 방울", "en": "Sellen's Bell Bearing", "category": "아이템" },
   { "ko": "D의 방울", "en": "D's Bell Bearing", "category": "아이템" },
@@ -3546,7 +3654,11 @@
     "en": "Bernahl's Bell Bearing",
     "category": "아이템"
   },
-  { "ko": "미리엘의 방울", "en": "Miriel's Bell Bearing", "category": "아이템" },
+  {
+    "ko": "미리엘의 방울",
+    "en": "Miriel's Bell Bearing",
+    "category": "아이템"
+  },
   {
     "ko": "고스토크의 방울",
     "en": "Gostoc's Bell Bearing",
@@ -3676,7 +3788,11 @@
   { "ko": "기다려", "en": "Wait!", "category": "아이템" },
   { "ko": "진정해", "en": "Calm Down!", "category": "아이템" },
   { "ko": "생각하며 끄덕임", "en": "Nod In Thought", "category": "아이템" },
-  { "ko": "무릎 꿇고 절하기", "en": "Extreme Repentance", "category": "아이템" },
+  {
+    "ko": "무릎 꿇고 절하기",
+    "en": "Extreme Repentance",
+    "category": "아이템"
+  },
   { "ko": "목숨 구걸", "en": "Grovel For Mercy", "category": "아이템" },
   { "ko": "아자 아자 아자", "en": "Rallying Cry", "category": "아이템" },
   { "ko": "오 오 오", "en": "Heartening Cry", "category": "아이템" },
@@ -3698,14 +3814,22 @@
   { "ko": "대자로 뻗기", "en": "Spread Out", "category": "아이템" },
   { "ko": "쭈그려 자기", "en": "Fetal Position", "category": "아이템" },
   { "ko": "웅크리기", "en": "Balled Up", "category": "아이템" },
-  { "ko": "귀공, 무슨 일인가", "en": "What Do You Want?", "category": "아이템" },
+  {
+    "ko": "귀공, 무슨 일인가",
+    "en": "What Do You Want?",
+    "category": "아이템"
+  },
   { "ko": "기도", "en": "Prayer", "category": "아이템" },
   { "ko": "매료된 기도", "en": "Desperate Prayer", "category": "아이템" },
   { "ko": "황홀", "en": "Rapture", "category": "아이템" },
   { "ko": "예지", "en": "Erudition", "category": "아이템" },
   { "ko": "외부의 규율", "en": "Outer Order", "category": "아이템" },
   { "ko": "내재하는 규율", "en": "Inner Order", "category": "아이템" },
-  { "ko": "황금률의 전모", "en": "Golden Order Totality", "category": "아이템" },
+  {
+    "ko": "황금률의 전모",
+    "en": "Golden Order Totality",
+    "category": "아이템"
+  },
   { "ko": "고리의 포즈", "en": "The Ring", "category": "아이템" },
   { "ko": "설명 「축복」", "en": "About Sites of Grace", "category": "아이템" },
   {
@@ -3736,7 +3860,11 @@
     "en": "About Guidance of Grace",
     "category": "아이템"
   },
-  { "ko": "설명 「승마」", "en": "About Horseback Riding", "category": "아이템" },
+  {
+    "ko": "설명 「승마」",
+    "en": "About Horseback Riding",
+    "category": "아이템"
+  },
   { "ko": "설명 「사망」", "en": "About Death", "category": "아이템" },
   {
     "ko": "설명 「영체 소환」",
@@ -3830,9 +3958,17 @@
     "en": "About Strengthening Armaments",
     "category": "아이템"
   },
-  { "ko": "설명 「원탁」", "en": "About Roundtable Hold", "category": "아이템" },
+  {
+    "ko": "설명 「원탁」",
+    "en": "About Roundtable Hold",
+    "category": "아이템"
+  },
   { "ko": "비망록: 대행자", "en": "Note: Redeemers", "category": "아이템" },
-  { "ko": "설명 「소재 아이템」", "en": "About Materials", "category": "아이템" },
+  {
+    "ko": "설명 「소재 아이템」",
+    "en": "About Materials",
+    "category": "아이템"
+  },
   {
     "ko": "설명 「그릇 아이템」",
     "en": "About Containers",
@@ -3850,7 +3986,11 @@
     "en": "About Wielding Armaments",
     "category": "아이템"
   },
-  { "ko": "설명 「거대한 룬」", "en": "About Great Runes", "category": "아이템" },
+  {
+    "ko": "설명 「거대한 룬」",
+    "en": "About Great Runes",
+    "category": "아이템"
+  },
   {
     "ko": "설명 「멀티 플레이」",
     "en": "About Multiplayer",
@@ -3882,7 +4022,11 @@
     "en": "Missionary's Cookbook",
     "category": "아이템"
   },
-  { "ko": "조향사의 제작서", "en": "Perfumer's Cookbook", "category": "아이템" },
+  {
+    "ko": "조향사의 제작서",
+    "en": "Perfumer's Cookbook",
+    "category": "아이템"
+  },
   {
     "ko": "고룡 신도의 제작서",
     "en": "Ancient Dragon Apostle's Cookbook",
@@ -3918,7 +4062,11 @@
     "category": "아이템"
   },
   { "ko": "묘 은방울꽃", "en": "Grave Glovewort", "category": "아이템" },
-  { "ko": "큰 묘 은방울꽃", "en": "Great Grave Glovewort", "category": "아이템" },
+  {
+    "ko": "큰 묘 은방울꽃",
+    "en": "Great Grave Glovewort",
+    "category": "아이템"
+  },
   { "ko": "영혼 묘 은방울꽃", "en": "Ghost Glovewort", "category": "아이템" },
   {
     "ko": "큰 영혼 묘 은방울꽃",
@@ -3945,8 +4093,16 @@
     "en": "Cerulean Crystal Tear",
     "category": "아이템"
   },
-  { "ko": "얼룩색 굳은 물방울", "en": "Speckled Hardtear", "category": "아이템" },
-  { "ko": "붉은 거품 물방울", "en": "Crimson Bubbletear", "category": "아이템" },
+  {
+    "ko": "얼룩색 굳은 물방울",
+    "en": "Speckled Hardtear",
+    "category": "아이템"
+  },
+  {
+    "ko": "붉은 거품 물방울",
+    "en": "Crimson Bubbletear",
+    "category": "아이템"
+  },
   {
     "ko": "진주색 거품 물방울",
     "en": "Opaline Bubbletear",
@@ -3962,15 +4118,31 @@
     "en": "Greenburst Crystal Tear",
     "category": "아이템"
   },
-  { "ko": "진주색 굳은 물방울", "en": "Opaline Hardtear", "category": "아이템" },
-  { "ko": "날개 결정 물방울", "en": "Winged Crystal Tear", "category": "아이템" },
-  { "ko": "가시 깨진 물방울", "en": "Thorny Cracked Tear", "category": "아이템" },
+  {
+    "ko": "진주색 굳은 물방울",
+    "en": "Opaline Hardtear",
+    "category": "아이템"
+  },
+  {
+    "ko": "날개 결정 물방울",
+    "en": "Winged Crystal Tear",
+    "category": "아이템"
+  },
+  {
+    "ko": "가시 깨진 물방울",
+    "en": "Thorny Cracked Tear",
+    "category": "아이템"
+  },
   {
     "ko": "큰 가시 깨진 물방울",
     "en": "Spiked Cracked Tear",
     "category": "아이템"
   },
-  { "ko": "바람 결정 물방울", "en": "Windy Crystal Tear", "category": "아이템" },
+  {
+    "ko": "바람 결정 물방울",
+    "en": "Windy Crystal Tear",
+    "category": "아이템"
+  },
   {
     "ko": "파열된 결정 물방울",
     "en": "Ruptured Crystal Tear",
@@ -4050,10 +4222,18 @@
   { "ko": "뿔의 싹", "en": "Budding Horn", "category": "아이템" },
   { "ko": "날개깃", "en": "Flight Pinion", "category": "아이템" },
   { "ko": "숨은 깃", "en": "Hidden Plumage", "category": "아이템" },
-  { "ko": "네 발가락 새다리", "en": "Four-Toed Fowl Foot", "category": "아이템" },
+  {
+    "ko": "네 발가락 새다리",
+    "en": "Four-Toed Fowl Foot",
+    "category": "아이템"
+  },
   { "ko": "거북 목 고기", "en": "Turtle Neck Meat", "category": "아이템" },
   { "ko": "인골 조각", "en": "Human Bone Shard", "category": "아이템" },
-  { "ko": "큰 잠자리 머리", "en": "Great Dragonfly Head", "category": "아이템" },
+  {
+    "ko": "큰 잠자리 머리",
+    "en": "Great Dragonfly Head",
+    "category": "아이템"
+  },
   { "ko": "잠알", "en": "Slumbering Egg", "category": "아이템" },
   { "ko": "게알", "en": "Crab Eggs", "category": "아이템" },
   { "ko": "문어알", "en": "Land Octopus Ovary", "category": "아이템" },
@@ -4135,8 +4315,16 @@
     "en": "Banished Knight Engvall",
     "category": "아이템"
   },
-  { "ko": "아귀 임프의 뼛가루", "en": "Fanged Imp Ashes", "category": "아이템" },
-  { "ko": "백금의 라티나", "en": "Latenna the Albinauric", "category": "아이템" },
+  {
+    "ko": "아귀 임프의 뼛가루",
+    "en": "Fanged Imp Ashes",
+    "category": "아이템"
+  },
+  {
+    "ko": "백금의 라티나",
+    "en": "Latenna the Albinauric",
+    "category": "아이템"
+  },
   { "ko": "방랑 민족의 뼛가루", "en": "Nomad Ashes", "category": "아이템" },
   {
     "ko": "밤 무녀와 검사 꼭두각시",
@@ -4224,7 +4412,11 @@
     "category": "아이템"
   },
   { "ko": "불의 승병의 뼛가루", "en": "Fire Monk Ashes", "category": "아이템" },
-  { "ko": "흑염 승병 아몬", "en": "Blackflame Monk Amon", "category": "아이템" },
+  {
+    "ko": "흑염 승병 아몬",
+    "en": "Blackflame Monk Amon",
+    "category": "아이템"
+  },
   { "ko": "뱀인간의 뼛가루", "en": "Man-Serpent Ashes", "category": "아이템" },
   {
     "ko": "아즈라 수인의 뼛가루",
@@ -4236,7 +4428,11 @@
     "en": "Kaiden Sellsword Ashes",
     "category": "아이템"
   },
-  { "ko": "낙오된 늑대의 뼛가루", "en": "Lone Wolf Ashes", "category": "아이템" },
+  {
+    "ko": "낙오된 늑대의 뼛가루",
+    "en": "Lone Wolf Ashes",
+    "category": "아이템"
+  },
   { "ko": "큰쥐의 뼛가루", "en": "Giant Rat Ashes", "category": "아이템" },
   { "ko": "아인단의 뼛가루", "en": "Demi-Human Ashes", "category": "아이템" },
   {
@@ -4276,7 +4472,11 @@
     "en": "Mad Pumpkin Head Ashes",
     "category": "아이템"
   },
-  { "ko": "육지멍게의 뼛가루", "en": "Land Squirt Ashes", "category": "아이템" },
+  {
+    "ko": "육지멍게의 뼛가루",
+    "en": "Land Squirt Ashes",
+    "category": "아이템"
+  },
   {
     "ko": "작은 미란다의 뼛가루",
     "en": "Miranda Sprout Ashes",
