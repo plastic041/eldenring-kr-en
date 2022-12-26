@@ -8,7 +8,7 @@ import {
   useMantineColorScheme,
   useMantineTheme,
 } from "@mantine/core";
-import { GitHubIcon, MoonIcon, SunIcon, TwitterIcon } from "../resources/Icons";
+import { GitHubIcon, MoonIcon, SunIcon } from "../resources/Icons";
 
 const Header = () => {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
@@ -88,27 +88,6 @@ const Header = () => {
                 onClick={() => toggleColorScheme()}
               >
                 {dark ? <SunIcon /> : <MoonIcon />}
-              </ActionIcon>
-            </Tooltip>
-          </li>
-          <li>
-            {/* 트위터 버튼 */}
-            <Tooltip
-              label="개발자 트위터로 이동"
-              position="bottom"
-              transition="fade"
-              withArrow
-              openDelay={500}
-            >
-              <ActionIcon
-                component="a"
-                href="https://twitter.com/plastik041"
-                target="_blank"
-                variant="filled"
-                size="lg"
-                aria-label="개발자 트위터로 이동"
-              >
-                <TwitterIcon />
               </ActionIcon>
             </Tooltip>
           </li>
