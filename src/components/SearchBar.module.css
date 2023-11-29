@@ -1,0 +1,13 @@
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  gap: var(--mantine-spacing-xs);
+}
+
+.input {
+  flex-grow: 1;
+}
+
+.button {
+  min-width: 80px;
+}

@@ -6,6 +6,7 @@ import { useState, useTransition } from "react";
 import { Chips } from "./Chips.tsx";
 import { SearchBar } from "./SearchBar.tsx";
 import { SearchResults } from "./SearchResults.tsx";
+import classes from "./Body.module.css";
 
 import type { DictEntry } from "../App.tsx";
 
@@ -49,16 +50,7 @@ const Body = () => {
   };
 
   return (
-    <Box
-      component="main"
-      style={(theme) => ({
-        display: "flex",
-        flexDirection: "column",
-        gap: theme.spacing.md,
-        height: 0,
-        flexGrow: 1,
-      })}
-    >
+    <Box className={classes.main}>
       <SearchBar onSetQuery={setQueryWithTransition} />
       <Chips
         categories={categories}

@@ -1,7 +1,10 @@
-import { Box, Container, useComputedColorScheme } from "@mantine/core";
+import { Box, Container } from "@mantine/core";
 
-import Body from "./components/Body.tsx";
-import Header from "./components/Header.tsx";
+import { lazy, Suspense } from "react";
+import { Header } from "./components/Header.tsx";
+import classes from "./App.module.css";
+
+const Body = lazy(() => import("./components/Body.tsx"));
 
 export type DictEntry = {
   ko: string;
@@ -9,36 +12,19 @@ export type DictEntry = {
   category: string;
 };
 
-const App = () => {
-  const computedColorScheme = useComputedColorScheme("dark");
+const Loader = () => {
+  return <Box className={classes.loader}>데이터를 불러오는 중입니다...</Box>;
+};
 
+export const App = () => {
   return (
-    <Box
-      style={(theme) => ({
-        display: "flex",
-        height: "100vh",
-        width: "100vw",
-
-        backgroundColor:
-          computedColorScheme === "dark"
-            ? theme.colors.dark[8]
-            : theme.colors.gray[1],
-      })}
-    >
-      <Container
-        p="lg"
-        style={(theme) => ({
-          display: "flex",
-          flexDirection: "column",
-          gap: theme.spacing.md,
-        })}
-        size="xs"
-      >
+    <Box className={classes.bg}>
+      <Container p="lg" className={classes.container} size="xs">
         <Header />
-        <Body />
+        <Suspense fallback={<Loader />}>
+          <Body />
+        </Suspense>
       </Container>
     </Box>
   );
 };
-
-export default App;

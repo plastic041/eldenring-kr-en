@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-md);
+  height: 0;
+  flex-grow: 1;
+}

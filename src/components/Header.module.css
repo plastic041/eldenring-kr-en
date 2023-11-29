@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: var(--mantine-spacing-xs);
+}
+
+.headerLogoTitle {
+  wordbreak: keep-all;
+  overflow-wrap: break-word;
+}

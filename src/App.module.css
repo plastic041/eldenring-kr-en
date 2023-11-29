@@ -1,0 +1,32 @@
+.bg {
+  display: flex;
+  height: 100dvh;
+  width: 100vw;
+
+  background-color: var(--mantine-color-gray-1);
+
+  @mixin dark {
+    background-color: var(--mantine-color-dark-8);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-md);
+  width: 100%;
+}
+
+@keyframes show-loader {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loader {
+  /*  keyframe animation opacity 0 to 1, delay 300ms */
+  animation: show-loader 300ms 1s backwards;
+}

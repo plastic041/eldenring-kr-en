@@ -1,0 +1,9 @@
+.dt {
+  width: 3rem;
+  margin-right: var(--mantine-spacing-xs);
+  flex-shrink: 0;
+}
+
+.dd {
+  margin: 0;
+}

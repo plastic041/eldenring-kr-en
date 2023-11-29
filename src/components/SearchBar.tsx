@@ -2,6 +2,7 @@ import { Box, Button, TextInput, ActionIcon } from "@mantine/core";
 import { useState, useRef } from "react";
 import { MagnifierIcon, ClearIcon } from "../resources/Icons.tsx";
 import { getHotkeyHandler } from "@mantine/hooks";
+import classes from "./SearchBar.module.css";
 
 type SearchBarProps = {
   onSetQuery: (value: string) => void;
@@ -11,18 +12,10 @@ export function SearchBar({ onSetQuery }: SearchBarProps) {
   const inputRef = useRef<HTMLInputElement>(null);
 
   return (
-    <Box
-      style={(theme) => ({
-        display: "flex",
-        flexDirection: "row",
-        gap: theme.spacing.xs,
-      })}
-    >
+    <Box className={classes.searchBar}>
       <TextInput
+        className={classes.input}
         ref={inputRef}
-        style={{
-          flexGrow: 1,
-        }}
         aria-label="검색어 입력"
         placeholder="한국어나 영어로 검색"
         leftSection={<MagnifierIcon />}
@@ -46,12 +39,7 @@ export function SearchBar({ onSetQuery }: SearchBarProps) {
         onChange={(e) => setValue(e.currentTarget.value)}
         onKeyDown={getHotkeyHandler([["Enter", () => onSetQuery(value)]])}
       />
-      <Button
-        onClick={() => onSetQuery(value)}
-        style={{
-          minWidth: "80px",
-        }}
-      >
+      <Button className={classes.button} onClick={() => onSetQuery(value)}>
         검색
       </Button>
     </Box>
