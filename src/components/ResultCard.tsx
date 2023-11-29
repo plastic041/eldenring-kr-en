@@ -1,36 +1,34 @@
 import {
   ActionIcon,
   Box,
+  Group,
   Highlight,
   Paper,
   Text,
   Tooltip,
 } from "@mantine/core";
 import { CheckIcon, ClipboardCopyIcon } from "../resources/Icons";
-
-import { Dict } from "../App";
 import { useClipboard } from "@mantine/hooks";
 
-const ResultWord = ({ query, word }: { query: string; word: string }) => {
+import type { DictEntry } from "../App";
+import type { ReactNode } from "react";
+
+type WordWithCopyProps = {
+  query: string;
+  word: string;
+};
+const WordWithCopy = ({ query, word }: WordWithCopyProps) => {
   const clipboard = useClipboard({
     timeout: 1000,
   });
 
   return (
-    <Box
-      sx={(theme) => ({
-        display: "flex",
-        alignItems: "center",
-        gap: theme.spacing.xs,
-      })}
-    >
-      <Text>
-        <Highlight highlight={query}>{word}</Highlight>
-      </Text>
+    <Group align="center" gap="xs">
+      <Highlight highlight={query}>{word}</Highlight>
       <Tooltip
+        withArrow
         label={clipboard.copied ? `복사됨` : `복사`}
         color={clipboard.copied ? "green" : "gray"}
-        transition="pop"
       >
         <ActionIcon
           size="sm"
@@ -42,67 +40,64 @@ const ResultWord = ({ query, word }: { query: string; word: string }) => {
           {clipboard.copied ? <CheckIcon /> : <ClipboardCopyIcon />}
         </ActionIcon>
       </Tooltip>
-    </Box>
+    </Group>
   );
 };
 
-const ResultCard = ({ query, ko, en, category }: Dict & { query: string }) => {
+type DefinitionProps = {
+  type: "한국어" | "영어" | "분류";
+  value: ReactNode;
+};
+const Definition = ({ type: label, value }: DefinitionProps) => {
+  return (
+    <Group>
+      <Box
+        component="dt"
+        style={(theme) => ({
+          width: "3rem",
+          marginRight: theme.spacing.xs,
+          flexShrink: 0,
+        })}
+      >
+        <Text c="dimmed">{label}</Text>
+      </Box>
+      <Box
+        style={{
+          margin: 0,
+        }}
+      >
+        {value}
+      </Box>
+    </Group>
+  );
+};
+
+type ResultCardProps = {
+  dictEntry: DictEntry;
+  query: string;
+};
+export const ResultCard = ({ dictEntry, query }: ResultCardProps) => {
   return (
     <Paper
       withBorder
       component="dl"
       shadow="xs"
       p="md"
-      sx={(theme) => ({
+      style={(theme) => ({
         display: "flex",
         flexDirection: "column",
         margin: 0,
-        backgroundColor:
-          theme.colorScheme === "dark"
-            ? theme.colors.dark[4]
-            : theme.colors.gray[0],
-
-        "& > div": {
-          display: "flex",
-
-          "& dt": {
-            width: "3rem",
-            marginRight: theme.spacing.xs,
-            color:
-              theme.colorScheme === "dark"
-                ? theme.colors.dark[1]
-                : theme.colors.gray[7],
-            flexShrink: 0,
-          },
-
-          "& dd": {
-            margin: 0,
-            color:
-              theme.colorScheme === "dark"
-                ? theme.colors.dark[0]
-                : theme.colors.gray[9],
-          },
-        },
       })}
     >
-      <div>
-        <dt>한국어</dt>
-        <dd>
-          <ResultWord query={query} word={ko} />
-        </dd>
-      </div>
-      <div>
-        <dt>영어</dt>
-        <dd>
-          <ResultWord query={query} word={en} />
-        </dd>
-      </div>
-      <div>
-        <dt>분류</dt>
-        <dd>{category}</dd>
-      </div>
+      <Definition
+        type="한국어"
+        value={<WordWithCopy query={query} word={dictEntry.ko} />}
+      />
+      <Definition
+        type="영어"
+        value={<WordWithCopy query={query} word={dictEntry.en} />}
+      />
+      <Definition type="분류" value={dictEntry.category} />
     </Paper>
   );
 };
-
-export default ResultCard;

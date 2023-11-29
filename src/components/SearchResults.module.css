@@ -1,0 +1,7 @@
+.scrollArea {
+  height: 100%;
+
+  & > div > div {
+    height: 100%;
+  }
+}

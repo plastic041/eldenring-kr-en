@@ -1,119 +1,65 @@
-import {
-  ActionIcon,
-  Box,
-  MediaQuery,
-  Text,
-  Title,
-  Tooltip,
-  useMantineColorScheme,
-  useMantineTheme,
-} from "@mantine/core";
-import { GitHubIcon, MoonIcon, SunIcon } from "../resources/Icons";
+import { ActionIcon, Box, List, Text, Title, Tooltip, em } from "@mantine/core";
+import { GitHubIcon } from "../resources/Icons";
+import { useMediaQuery } from "@mantine/hooks";
 
 const Header = () => {
-  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
-  const dark = colorScheme === "dark";
-  const theme = useMantineTheme();
+  const isMobile = useMediaQuery(`(max-width: ${em(750)})`);
 
   return (
     <Box
-      sx={{
+      style={{
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
       }}
       component="header"
     >
-      <MediaQuery
-        smallerThan="xs"
-        styles={{
-          flexDirection: "column",
-          alignItems: "start",
-          gap: 0,
-        }}
+      <Box
+        style={(theme) => ({
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "end",
+          gap: theme.spacing.xs,
+        })}
       >
-        <Box
-          sx={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "end",
-            justifyContent: "center",
-            gap: theme.spacing.xs,
+        <Title
+          style={{
+            wordBreak: "keep-all",
           }}
+          size={isMobile ? "h2" : "h1"}
         >
-          <MediaQuery
-            smallerThan="xs"
-            styles={{
-              fontSize: theme.fontSizes.xl,
-            }}
-          >
-            <Title sx={{ wordBreak: "keep-all" }}>엘든링 한영사전</Title>
-          </MediaQuery>
-          <Text
-            size="xs"
-            sx={{
-              color: dark ? theme.colors.dark[2] : theme.colors.gray[7],
-            }}
-          >
-            @plastik041
-          </Text>
-        </Box>
-      </MediaQuery>
+          엘든링 한영사전
+        </Title>
+        <Text size="xs" c="dimmed">
+          @plastik041
+        </Text>
+      </Box>
       <nav>
-        <Box
-          component="ul"
-          sx={(theme) => ({
+        <List
+          listStyleType="none"
+          style={(theme) => ({
             display: "flex",
             gap: theme.spacing.xs,
-            listStyleType: "none",
             padding: 0,
             margin: 0,
           })}
         >
-          <li>
-            {/* 다크 모드 토글 버튼 */}
-            <Tooltip
-              label={`${dark ? "밝은 화면" : "어두운 화면"} 모드로 전환`}
-              position="bottom"
-              transition="fade"
-              withArrow
-              openDelay={500}
-              color={dark ? "gray" : "blue"}
-            >
-              <ActionIcon
-                variant="filled"
-                size="lg"
-                aria-label="다크 모드 토글"
-                color={dark ? "yellow" : "blue"}
-                onClick={() => toggleColorScheme()}
-              >
-                {dark ? <SunIcon /> : <MoonIcon />}
-              </ActionIcon>
-            </Tooltip>
-          </li>
-          <li>
+          <List.Item>
             {/* 깃허브 버튼 */}
-            <Tooltip
-              label="GitHub 저장소로 이동"
-              position="bottom"
-              placement="end"
-              transition="fade"
-              withArrow
-              openDelay={500}
-            >
+            <Tooltip label="GitHub 저장소로 이동" position="bottom" withArrow>
               <ActionIcon
                 component="a"
                 href="https://github.com/plastic041/eldenring-kr-en"
                 target="_blank"
-                variant="filled"
+                variant="default"
                 size="lg"
                 aria-label="GitHub 저장소로 이동"
               >
                 <GitHubIcon />
               </ActionIcon>
             </Tooltip>
-          </li>
-        </Box>
+          </List.Item>
+        </List>
       </nav>
     </Box>
   );

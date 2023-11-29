@@ -9,11 +9,7 @@
   { "ko": "카이덴의 바지", "en": "Kaiden Trousers", "category": "의상" },
   { "ko": "용기사의 투구", "en": "Drake Knight Helm", "category": "의상" },
   { "ko": "용기사의 갑옷", "en": "Drake Knight Armor", "category": "의상" },
-  {
-    "ko": "용기사의 장갑",
-    "en": "Drake Knight Gauntlets",
-    "category": "의상"
-  },
+  { "ko": "용기사의 장갑", "en": "Drake Knight Gauntlets", "category": "의상" },
   { "ko": "용기사의 각반", "en": "Drake Knight Greaves", "category": "의상" },
   {
     "ko": "용기사의 투구(경장)",
@@ -128,11 +124,7 @@
     "en": "Black Knife Gauntlets",
     "category": "의상"
   },
-  {
-    "ko": "검은 칼날의 각반",
-    "en": "Black Knife Greaves",
-    "category": "의상"
-  },
+  { "ko": "검은 칼날의 각반", "en": "Black Knife Greaves", "category": "의상" },
   {
     "ko": "검은 칼날의 갑옷(경장)",
     "en": "Black Knife Armor (Altered)",
@@ -186,11 +178,7 @@
   { "ko": "시종의 바지", "en": "Page Trousers", "category": "의상" },
   { "ko": "시종의 옷(경장)", "en": "Page Garb (Altered)", "category": "의상" },
   { "ko": "밤 기병의 투구", "en": "Night's Cavalry Helm", "category": "의상" },
-  {
-    "ko": "밤 기병의 갑옷",
-    "en": "Night's Cavalry Armor",
-    "category": "의상"
-  },
+  { "ko": "밤 기병의 갑옷", "en": "Night's Cavalry Armor", "category": "의상" },
   {
     "ko": "밤 기병의 장갑",
     "en": "Night's Cavalry Gauntlets",
@@ -214,11 +202,7 @@
   { "ko": "창은의 후드", "en": "Blue Silver Mail Hood", "category": "의상" },
   { "ko": "창은의 갑옷", "en": "Blue Silver Mail Armor", "category": "의상" },
   { "ko": "창은의 팔찌", "en": "Blue Silver Bracelets", "category": "의상" },
-  {
-    "ko": "창은의 스커트",
-    "en": "Blue Silver Mail Skirt",
-    "category": "의상"
-  },
+  { "ko": "창은의 스커트", "en": "Blue Silver Mail Skirt", "category": "의상" },
   {
     "ko": "창은의 갑옷(경장)",
     "en": "Blue Silver Mail Armor (Altered)",
@@ -244,11 +228,7 @@
     "en": "Nomadic Merchant's Finery (Altered)",
     "category": "의상"
   },
-  {
-    "ko": "이형의 용 투구",
-    "en": "Malformed Dragon Helm",
-    "category": "의상"
-  },
+  { "ko": "이형의 용 투구", "en": "Malformed Dragon Helm", "category": "의상" },
   {
     "ko": "이형의 용 갑옷",
     "en": "Malformed Dragon Armor",
@@ -265,11 +245,7 @@
     "category": "의상"
   },
   { "ko": "트리 가드의 투구", "en": "Tree Sentinel Helm", "category": "의상" },
-  {
-    "ko": "트리 가드의 갑옷",
-    "en": "Tree Sentinel Armor",
-    "category": "의상"
-  },
+  { "ko": "트리 가드의 갑옷", "en": "Tree Sentinel Armor", "category": "의상" },
   {
     "ko": "트리 가드의 장갑",
     "en": "Tree Sentinel Gauntlets",
@@ -292,11 +268,7 @@
     "en": "Royal Knight Gauntlets",
     "category": "의상"
   },
-  {
-    "ko": "친위기사의 각반",
-    "en": "Royal Knight Greaves",
-    "category": "의상"
-  },
+  { "ko": "친위기사의 각반", "en": "Royal Knight Greaves", "category": "의상" },
   {
     "ko": "친위기사의 갑옷(경장)",
     "en": "Royal Knight Armor (Altered)",
@@ -360,16 +332,8 @@
     "en": "Gravekeeper Cloak (Altered)",
     "category": "의상"
   },
-  {
-    "ko": "피의 귀족의 후드",
-    "en": "Sanguine Noble Hood",
-    "category": "의상"
-  },
-  {
-    "ko": "피의 귀족의 로브",
-    "en": "Sanguine Noble Robe",
-    "category": "의상"
-  },
+  { "ko": "피의 귀족의 후드", "en": "Sanguine Noble Hood", "category": "의상" },
+  { "ko": "피의 귀족의 로브", "en": "Sanguine Noble Robe", "category": "의상" },
   {
     "ko": "피의 귀족의 허리띠",
     "en": "Sanguine Noble Waistcloth",
@@ -445,11 +409,7 @@
   },
   { "ko": "귀인의 모자", "en": "Aristocrat Hat", "category": "의상" },
   { "ko": "귀인의 코트", "en": "Aristocrat Coat", "category": "의상" },
-  {
-    "ko": "늙은 귀인의 두건",
-    "en": "Old Aristocrat Cowl",
-    "category": "의상"
-  },
+  { "ko": "늙은 귀인의 두건", "en": "Old Aristocrat Cowl", "category": "의상" },
   {
     "ko": "늙은 귀인의 긴 옷",
     "en": "Old Aristocrat Gown",
@@ -460,11 +420,7 @@
     "en": "Old Aristocrat Shoes",
     "category": "의상"
   },
-  {
-    "ko": "천한 병사의 투구",
-    "en": "Vulgar Militia Helm",
-    "category": "의상"
-  },
+  { "ko": "천한 병사의 투구", "en": "Vulgar Militia Helm", "category": "의상" },
   {
     "ko": "천한 병사의 갑옷",
     "en": "Vulgar Militia Armor",
@@ -498,11 +454,7 @@
     "en": "Radahn's Redmane Helm",
     "category": "의상"
   },
-  {
-    "ko": "라단의 사자 갑옷",
-    "en": "Radahn's Lion Armor",
-    "category": "의상"
-  },
+  { "ko": "라단의 사자 갑옷", "en": "Radahn's Lion Armor", "category": "의상" },
   { "ko": "라단의 장갑", "en": "Radahn's Gauntlets", "category": "의상" },
   { "ko": "라단의 각반", "en": "Radahn's Greaves", "category": "의상" },
   {
@@ -535,11 +487,7 @@
     "en": "Godskin Apostle Bracelets",
     "category": "의상"
   },
-  {
-    "ko": "사도의 바지",
-    "en": "Godskin Apostle Trousers",
-    "category": "의상"
-  },
+  { "ko": "사도의 바지", "en": "Godskin Apostle Trousers", "category": "의상" },
   {
     "ko": "신의 살갗의 귀인 후드",
     "en": "Godskin Noble Hood",
@@ -577,11 +525,7 @@
     "en": "Depraved Perfumer Robe (Altered)",
     "category": "의상"
   },
-  {
-    "ko": "도가니의 도끼 투구",
-    "en": "Crucible Axe Helm",
-    "category": "의상"
-  },
+  { "ko": "도가니의 도끼 투구", "en": "Crucible Axe Helm", "category": "의상" },
   {
     "ko": "도가니의 도끼 갑옷",
     "en": "Crucible Axe Armor",
@@ -634,11 +578,7 @@
   { "ko": "아줄의 팔 보호대", "en": "Azur's Manchettes", "category": "의상" },
   { "ko": "온 지혜의 투구", "en": "All-Knowing Helm", "category": "의상" },
   { "ko": "온 지혜의 갑옷", "en": "All-Knowing Armor", "category": "의상" },
-  {
-    "ko": "온 지혜의 장갑",
-    "en": "All-Knowing Gauntlets",
-    "category": "의상"
-  },
+  { "ko": "온 지혜의 장갑", "en": "All-Knowing Gauntlets", "category": "의상" },
   { "ko": "온 지혜의 각반", "en": "All-Knowing Greaves", "category": "의상" },
   {
     "ko": "온 지혜의 갑옷(경장)",
@@ -710,11 +650,7 @@
     "en": "Hoslow's Armor (Altered)",
     "category": "의상"
   },
-  {
-    "ko": "방랑기사의 투구",
-    "en": "Vagabond Knight Helm",
-    "category": "의상"
-  },
+  { "ko": "방랑기사의 투구", "en": "Vagabond Knight Helm", "category": "의상" },
   {
     "ko": "방랑기사의 갑옷",
     "en": "Vagabond Knight Armor",
@@ -742,22 +678,14 @@
   { "ko": "흰 가면", "en": "White Mask", "category": "의상" },
   { "ko": "종군의사의 백의", "en": "War Surgeon Gown", "category": "의상" },
   { "ko": "종군의사의 장갑", "en": "War Surgeon Gloves", "category": "의상" },
-  {
-    "ko": "종군의사의 바지",
-    "en": "War Surgeon Trousers",
-    "category": "의상"
-  },
+  { "ko": "종군의사의 바지", "en": "War Surgeon Trousers", "category": "의상" },
   {
     "ko": "종군의사의 백의(경장)",
     "en": "War Surgeon Gown (Altered)",
     "category": "의상"
   },
   { "ko": "왕의 유해의 투구", "en": "Royal Remains Helm", "category": "의상" },
-  {
-    "ko": "왕의 유해의 갑옷",
-    "en": "Royal Remains Armor",
-    "category": "의상"
-  },
+  { "ko": "왕의 유해의 갑옷", "en": "Royal Remains Armor", "category": "의상" },
   {
     "ko": "왕의 유해의 장갑",
     "en": "Royal Remains Gauntlets",
@@ -816,21 +744,13 @@
   { "ko": "용사의 장갑", "en": "Champion Bracers", "category": "의상" },
   { "ko": "용사의 각반", "en": "Champion Gaiters", "category": "의상" },
   { "ko": "심홍색 후드", "en": "Crimson Hood", "category": "의상" },
-  {
-    "ko": "귀족의 여행복",
-    "en": "Noble's Traveling Garb",
-    "category": "의상"
-  },
+  { "ko": "귀족의 여행복", "en": "Noble's Traveling Garb", "category": "의상" },
   { "ko": "귀족의 장갑", "en": "Noble's Gloves", "category": "의상" },
   { "ko": "귀족의 바지", "en": "Noble's Trousers", "category": "의상" },
   { "ko": "진남색 후드", "en": "Navy Hood", "category": "의상" },
   { "ko": "말리케스의 투구", "en": "Maliketh's Helm", "category": "의상" },
   { "ko": "말리케스의 갑옷", "en": "Maliketh's Armor", "category": "의상" },
-  {
-    "ko": "말리케스의 장갑",
-    "en": "Maliketh's Gauntlets",
-    "category": "의상"
-  },
+  { "ko": "말리케스의 장갑", "en": "Maliketh's Gauntlets", "category": "의상" },
   { "ko": "말리케스의 각반", "en": "Maliketh's Greaves", "category": "의상" },
   {
     "ko": "말리케스의 갑옷(경장)",
@@ -983,11 +903,7 @@
     "category": "의상"
   },
   { "ko": "갈대의 땅의 투구", "en": "Land of Reeds Helm", "category": "의상" },
-  {
-    "ko": "갈대의 땅의 갑옷",
-    "en": "Land of Reeds Armor",
-    "category": "의상"
-  },
+  { "ko": "갈대의 땅의 갑옷", "en": "Land of Reeds Armor", "category": "의상" },
   {
     "ko": "갈대의 땅의 장갑",
     "en": "Land of Reeds Gauntlets",
@@ -1107,11 +1023,7 @@
   { "ko": "도적의 부츠", "en": "Bandit Boots", "category": "의상" },
   { "ko": "도적의 조끼", "en": "Bandit Garb", "category": "의상" },
   { "ko": "기이한 기사의 후드", "en": "Eccentric's Hood", "category": "의상" },
-  {
-    "ko": "기이한 기사의 갑옷",
-    "en": "Eccentric's Armor",
-    "category": "의상"
-  },
+  { "ko": "기이한 기사의 갑옷", "en": "Eccentric's Armor", "category": "의상" },
   {
     "ko": "기이한 기사의 팔띠",
     "en": "Eccentric's Manchettes",
@@ -1128,11 +1040,7 @@
     "category": "의상"
   },
   { "ko": "손가락 자국의 투구", "en": "Fingerprint Helm", "category": "의상" },
-  {
-    "ko": "손가락 자국의 갑옷",
-    "en": "Fingerprint Armor",
-    "category": "의상"
-  },
+  { "ko": "손가락 자국의 갑옷", "en": "Fingerprint Armor", "category": "의상" },
   {
     "ko": "손가락 자국의 장갑",
     "en": "Fingerprint Gauntlets",
@@ -1349,11 +1257,7 @@
     "en": "Leyndell Soldier Greaves",
     "category": "의상"
   },
-  {
-    "ko": "라단 병사의 투구",
-    "en": "Radahn Soldier Helm",
-    "category": "의상"
-  },
+  { "ko": "라단 병사의 투구", "en": "Radahn Soldier Helm", "category": "의상" },
   { "ko": "적사자 서코트", "en": "Redmane Surcoat", "category": "의상" },
   {
     "ko": "라단 병사의 장갑",
@@ -1366,11 +1270,7 @@
     "category": "의상"
   },
   { "ko": "영묘 서코트", "en": "Mausoleum Surcoat", "category": "의상" },
-  {
-    "ko": "영묘 병사의 장갑",
-    "en": "Mausoleum Gauntlets",
-    "category": "의상"
-  },
+  { "ko": "영묘 병사의 장갑", "en": "Mausoleum Gauntlets", "category": "의상" },
   { "ko": "영묘 병사의 각반", "en": "Mausoleum Greaves", "category": "의상" },
   { "ko": "성수 병사의 투구", "en": "Haligtree Helm", "category": "의상" },
   {
@@ -1378,11 +1278,7 @@
     "en": "Haligtree Crest Surcoat",
     "category": "의상"
   },
-  {
-    "ko": "성수 병사의 장갑",
-    "en": "Haligtree Gauntlets",
-    "category": "의상"
-  },
+  { "ko": "성수 병사의 장갑", "en": "Haligtree Gauntlets", "category": "의상" },
   { "ko": "성수 병사의 각반", "en": "Haligtree Greaves", "category": "의상" },
   {
     "ko": "겔미어 기사의 투구",
@@ -1562,11 +1458,7 @@
   },
   { "ko": "졸병의 장갑", "en": "Foot Soldier Gauntlets", "category": "의상" },
   { "ko": "졸병의 각반", "en": "Foot Soldier Greaves", "category": "의상" },
-  {
-    "ko": "졸병의 투구 덮개",
-    "en": "Foot Soldier Helmet",
-    "category": "의상"
-  },
+  { "ko": "졸병의 투구 덮개", "en": "Foot Soldier Helmet", "category": "의상" },
   { "ko": "졸병의 천 갑옷", "en": "Foot Soldier Tabard", "category": "의상" },
   {
     "ko": "졸병의 금 모자",
@@ -1580,11 +1472,7 @@
   },
   { "ko": "졸병의 헬름", "en": "Foot Soldier Helm", "category": "의상" },
   { "ko": "붉은 천 갑옷", "en": "Scarlet Tabard", "category": "의상" },
-  {
-    "ko": "피에 젖은 천 갑옷",
-    "en": "Bloodsoaked Tabard",
-    "category": "의상"
-  },
+  { "ko": "피에 젖은 천 갑옷", "en": "Bloodsoaked Tabard", "category": "의상" },
   { "ko": "성관의 철 투구", "en": "Sacred Crown Helm", "category": "의상" },
   {
     "ko": "상아 어깨망토 천 갑옷",
@@ -1728,11 +1616,7 @@
     "en": "Ash of War: Prelate's Charge",
     "category": "전회"
   },
-  {
-    "ko": "전회 「거합」",
-    "en": "Ash of War: Unsheathe",
-    "category": "전회"
-  },
+  { "ko": "전회 「거합」", "en": "Ash of War: Unsheathe", "category": "전회" },
   {
     "ko": "전회 「준비 자세」",
     "en": "Ash of War: Square Off",
@@ -1929,7 +1813,6 @@
     "en": "Ash of War: Buckler Parry",
     "category": "전회"
   },
-  { "ko": "전회 「패리」", "en": "Ash of War: Parry", "category": "전회" },
   {
     "ko": "전회 「카리아의 앙갚음」",
     "en": "Ash of War: Carian Retaliation",
@@ -2061,11 +1944,7 @@
     "en": "Ash of War: Shared Order",
     "category": "전회"
   },
-  {
-    "ko": "전회 「할복」",
-    "en": "Ash of War: Seppuku",
-    "category": "전회"
-  },
+  { "ko": "전회 「할복」", "en": "Ash of War: Seppuku", "category": "전회" },
   {
     "ko": "전회 「암석검」",
     "en": "Ash of War: Cragblade",
@@ -2178,16 +2057,8 @@
   { "ko": "그레이트 카리아", "en": "Carian Grandeur", "category": "전회" },
   { "ko": "카리아의 대검", "en": "Carian Greatsword", "category": "전회" },
   { "ko": "진공 베기", "en": "Vacuum Slice", "category": "전회" },
-  {
-    "ko": "흑염의 회오리",
-    "en": "Black Flame Tornado",
-    "category": "전회"
-  },
-  {
-    "ko": "성스러운 빛고리",
-    "en": "Sacred Ring of Light",
-    "category": "전회"
-  },
+  { "ko": "흑염의 회오리", "en": "Black Flame Tornado", "category": "전회" },
+  { "ko": "성스러운 빛고리", "en": "Sacred Ring of Light", "category": "전회" },
   { "ko": "불 뿜기", "en": "Firebreather", "category": "전회" },
   { "ko": "피의 칼날", "en": "Blood Blade", "category": "전회" },
   { "ko": "협공하는 환영", "en": "Phantom Slash", "category": "전회" },
@@ -2198,12 +2069,7 @@
   { "ko": "철벽의 방패", "en": "Barricade Shield", "category": "전회" },
   { "ko": "패리", "en": "Parry", "category": "전회" },
   { "ko": "버클러 패리", "en": "Buckler Parry", "category": "전회" },
-  { "ko": "패리", "en": "Parry", "category": "전회" },
-  {
-    "ko": "카리아의 앙갚음",
-    "en": "Carian Retaliation",
-    "category": "전회"
-  },
+  { "ko": "카리아의 앙갚음", "en": "Carian Retaliation", "category": "전회" },
   { "ko": "폭풍의 벽", "en": "Storm Wall", "category": "전회" },
   { "ko": "황금 패리", "en": "Golden Parry", "category": "전회" },
   { "ko": "돌격 강타", "en": "Shield Crash", "category": "전회" },
@@ -2218,11 +2084,7 @@
   { "ko": "남각", "en": "Storm Stomp", "category": "전회" },
   { "ko": "킥", "en": "Kick", "category": "전회" },
   { "ko": "벼락 양", "en": "Lightning Ram", "category": "전회" },
-  {
-    "ko": "적사자의 화염",
-    "en": "Flame of the Redmanes",
-    "category": "전회"
-  },
+  { "ko": "적사자의 화염", "en": "Flame of the Redmanes", "category": "전회" },
   { "ko": "드롭 어택", "en": "Ground Slam", "category": "전회" },
   { "ko": "황금의 드롭 어택", "en": "Golden Slam", "category": "전회" },
   { "ko": "암흑파", "en": "Waves of Darkness", "category": "전회" },
@@ -2254,29 +2116,17 @@
   { "ko": "퀵스텝", "en": "Quickstep", "category": "전회" },
   { "ko": "사냥개의 스텝", "en": "Bloodhound's Step", "category": "전회" },
   { "ko": "안개의 맹금", "en": "Raptor of the Mists", "category": "전회" },
-  {
-    "ko": "흰 그림자의 유인",
-    "en": "White Shadow's Lure",
-    "category": "전회"
-  },
+  { "ko": "흰 그림자의 유인", "en": "White Shadow's Lure", "category": "전회" },
   { "ko": "솟아나는 신앙", "en": "Surge of Faith", "category": "전회" },
   { "ko": "화염 타액", "en": "Flame Spit", "category": "전회" },
   { "ko": "화염의 혀", "en": "Tongues of Fire", "category": "전회" },
   { "ko": "신탁의 거품", "en": "Oracular Bubble", "category": "전회" },
   { "ko": "퍼붓는 거품", "en": "Bubble Shower", "category": "전회" },
-  {
-    "ko": "신탁의 큰 거품",
-    "en": "Great Oracular Bubble",
-    "category": "전회"
-  },
+  { "ko": "신탁의 큰 거품", "en": "Great Oracular Bubble", "category": "전회" },
   { "ko": "용암 바다", "en": "Sea of Magma", "category": "전회" },
   { "ko": "독사의 이빨", "en": "Viper Bite", "category": "전회" },
   { "ko": "월광검", "en": "Moonlight Greatsword", "category": "전회" },
-  {
-    "ko": "실루리아의 소용돌이",
-    "en": "Siluria's Woe",
-    "category": "전회"
-  },
+  { "ko": "실루리아의 소용돌이", "en": "Siluria's Woe", "category": "전회" },
   { "ko": "군기 아래에", "en": "Rallying Standard", "category": "전회" },
   { "ko": "굽어 살피소서", "en": "Bear Witness!", "category": "전회" },
   {
@@ -2287,11 +2137,7 @@
   { "ko": "악령 부르기", "en": "Soul Stifler", "category": "전회" },
   { "ko": "약탈의 화염", "en": "Taker's Flames", "category": "전회" },
   { "ko": "미에로스의 절규", "en": "Shriek of Milos", "category": "전회" },
-  {
-    "ko": "레두비아의 혈인",
-    "en": "Reduvia Blood Blade",
-    "category": "전회"
-  },
+  { "ko": "레두비아의 혈인", "en": "Reduvia Blood Blade", "category": "전회" },
   { "ko": "휘석의 혜성", "en": "Glintstone Dart", "category": "전회" },
   { "ko": "유체화", "en": "Flowing Form", "category": "전회" },
   {
@@ -2300,11 +2146,7 @@
     "category": "전회"
   },
   { "ko": "황금파", "en": "Wave of Gold", "category": "전회" },
-  {
-    "ko": "멸망의 영혼 불",
-    "en": "Ruinous Ghostflame",
-    "category": "전회"
-  },
+  { "ko": "멸망의 영혼 불", "en": "Ruinous Ghostflame", "category": "전회" },
   { "ko": "황금률 게양", "en": "Establish Order", "category": "전회" },
   { "ko": "잠의 안개", "en": "Mists of Slumber", "category": "전회" },
   { "ko": "창 부르기 의식", "en": "Spearcall Ritual", "category": "전회" },
@@ -2318,21 +2160,12 @@
   { "ko": "별 부르기", "en": "Starcaller Cry", "category": "전회" },
   { "ko": "붕괴파", "en": "Wave of Destruction", "category": "전회" },
   { "ko": "위대한 피", "en": "Bloodboon Ritual", "category": "전회" },
-  { "ko": "유체화", "en": "Flowing Form", "category": "전회" },
   { "ko": "죽음의 칼날", "en": "Blade of Death", "category": "전회" },
   { "ko": "황금 칼날", "en": "Blade of Gold", "category": "전회" },
   { "ko": "운명의 죽음", "en": "Destined Death", "category": "전회" },
   { "ko": "수레바퀴 회전", "en": "Spinning Wheel", "category": "전회" },
-  {
-    "ko": "백왕의 인력파",
-    "en": "Alabaster Lords' Pull",
-    "category": "전회"
-  },
-  {
-    "ko": "흑왕의 척력파",
-    "en": "Onyx Lords' Repulsion",
-    "category": "전회"
-  },
+  { "ko": "백왕의 인력파", "en": "Alabaster Lords' Pull", "category": "전회" },
+  { "ko": "흑왕의 척력파", "en": "Onyx Lords' Repulsion", "category": "전회" },
   { "ko": "복수의 맹세", "en": "Oath of Vengeance", "category": "전회" },
   { "ko": "빙뢰검", "en": "Ice Lightning Sword", "category": "전회" },
   { "ko": "짐승왕의 발톱", "en": "Regal Beastclaw", "category": "전회" },
@@ -2340,16 +2173,8 @@
   { "ko": "지탄", "en": "Claw Flick", "category": "전회" },
   { "ko": "별 구름", "en": "Nebula", "category": "전회" },
   { "ko": "영혼 불 발화", "en": "Ghostflame Ignition", "category": "전회" },
-  {
-    "ko": "고룡의 벼락",
-    "en": "Ancient Lightning Spear",
-    "category": "전회"
-  },
-  {
-    "ko": "미친 불 찌르기",
-    "en": "Frenzyflame Thrust",
-    "category": "전회"
-  },
+  { "ko": "고룡의 벼락", "en": "Ancient Lightning Spear", "category": "전회" },
+  { "ko": "미친 불 찌르기", "en": "Frenzyflame Thrust", "category": "전회" },
   {
     "ko": "미켈라의 빛고리",
     "en": "Miquella's Ring of Light",
@@ -2357,46 +2182,20 @@
   },
   { "ko": "황금의 검술", "en": "Golden Tempering", "category": "전회" },
   { "ko": "애도의 묘비", "en": "Last Rites", "category": "전회" },
-  {
-    "ko": "막을 수 없는 검",
-    "en": "Unblockable Blade",
-    "category": "전회"
-  },
-  {
-    "ko": "에오히드의 검무",
-    "en": "Eochaid's Dancing Blade",
-    "category": "전회"
-  },
+  { "ko": "막을 수 없는 검", "en": "Unblockable Blade", "category": "전회" },
   { "ko": "시랍 베기", "en": "Corpse Wax Cutter", "category": "전회" },
-  {
-    "ko": "자미엘의 얼음 폭풍",
-    "en": "Zamor Ice Storm",
-    "category": "전회"
-  },
+  { "ko": "자미엘의 얼음 폭풍", "en": "Zamor Ice Storm", "category": "전회" },
   { "ko": "라단의 소나기", "en": "Radahn's Rain", "category": "전회" },
-  {
-    "ko": "여왕의 흑염",
-    "en": "The Queen's Black Flame",
-    "category": "전회"
-  },
+  { "ko": "여왕의 흑염", "en": "The Queen's Black Flame", "category": "전회" },
   { "ko": "왕조 검술", "en": "Dynast's Finesse", "category": "전회" },
   { "ko": "용암 뿌리기", "en": "Magma Shower", "category": "전회" },
-  { "ko": "별 구름", "en": "Nebula", "category": "전회" },
   { "ko": "죽음의 플레어", "en": "Death Flare", "category": "전회" },
   { "ko": "사냥개 검술", "en": "Bloodhound's Finesse", "category": "전회" },
   { "ko": "용암 길로틴", "en": "Magma Guillotine", "category": "전회" },
   { "ko": "시체더미", "en": "Corpse Piler", "category": "전회" },
-  {
-    "ko": "순간의 달그림자",
-    "en": "Transient Moonlight",
-    "category": "전회"
-  },
+  { "ko": "순간의 달그림자", "en": "Transient Moonlight", "category": "전회" },
   { "ko": "혈인난무", "en": "Bloodblade Dance", "category": "전회" },
-  {
-    "ko": "온 지혜의 세계",
-    "en": "Knowledge Above All",
-    "category": "전회"
-  },
+  { "ko": "온 지혜의 세계", "en": "Knowledge Above All", "category": "전회" },
   { "ko": "세계 먹는 자", "en": "Devourer of Worlds", "category": "전회" },
   { "ko": "가족의 원혼", "en": "Familal Rancor", "category": "전회" },
   { "ko": "로제스의 부름", "en": "Rosus's Summons", "category": "전회" },
@@ -2405,27 +2204,14 @@
   { "ko": "큰 뱀 사냥꾼", "en": "Great-Serpent Hunt", "category": "전회" },
   { "ko": "천사의 날개", "en": "Angel's Wings", "category": "전회" },
   { "ko": "폭풍 차기", "en": "Storm Kick", "category": "전회" },
-  {
-    "ko": "막을 수 없는 칼날",
-    "en": "Unblockable Blade",
-    "category": "전회"
-  },
+  { "ko": "막을 수 없는 칼날", "en": "Unblockable Blade", "category": "전회" },
   { "ko": "석장 마술", "en": "Sorcery of the Crozier", "category": "전회" },
-  {
-    "ko": "황금 나무의 드롭 어택",
-    "en": "Erdtree Slam",
-    "category": "전회"
-  },
+  { "ko": "황금 나무의 드롭 어택", "en": "Erdtree Slam", "category": "전회" },
   { "ko": "중력 벼락", "en": "Gravity Bolt", "category": "전회" },
   { "ko": "잠의 화염", "en": "Fires of Slumber", "category": "전회" },
   { "ko": "황금의 보복", "en": "Golden Retaliation", "category": "전회" },
   { "ko": "전염하는 분노", "en": "Contagious Fury", "category": "전회" },
-  {
-    "ko": "오르도비스의 회오리",
-    "en": "Ordovis's Vortex",
-    "category": "전회"
-  },
-  { "ko": "돌아라 돌아라", "en": "Spinning Weapon", "category": "전회" },
+  { "ko": "오르도비스의 회오리", "en": "Ordovis's Vortex", "category": "전회" },
   {
     "ko": "빛바랜 자의 갈고리 손가락",
     "en": "Tarnished's Furled Finger",
@@ -2930,7 +2716,6 @@
   { "ko": "광열의 향약", "en": "Bloodboil Aromatic", "category": "아이템" },
   { "ko": "독 분무", "en": "Poison Spraymist", "category": "아이템" },
   { "ko": "산 분무", "en": "Acid Spraymist", "category": "아이템" },
-  { "ko": "휘석 돌팔매", "en": "Glintstone Pebble", "category": "아이템" },
   {
     "ko": "휘석 큰 돌팔매",
     "en": "Great Glintstone Shard",
@@ -2958,7 +2743,6 @@
   { "ko": "혜성 아줄", "en": "Comet Azur", "category": "아이템" },
   { "ko": "창성의 비", "en": "Founding Rain of Stars", "category": "아이템" },
   { "ko": "멸망의 유성", "en": "Stars of Ruin", "category": "아이템" },
-  { "ko": "휘검의 원진", "en": "Glintblade Phalanx", "category": "아이템" },
   { "ko": "카리아의 원진", "en": "Carian Phalanx", "category": "아이템" },
   { "ko": "거검진", "en": "Greatblade Phalanx", "category": "아이템" },
   { "ko": "레날라의 만월", "en": "Rennala's Full Moon", "category": "아이템" },
@@ -2972,9 +2756,7 @@
     "en": "Glintstone Icecrag",
     "category": "아이템"
   },
-  { "ko": "자미엘의 얼음 폭풍", "en": "Zamor Ice Storm", "category": "아이템" },
   { "ko": "얼음의 안개", "en": "Freezing Mist", "category": "아이템" },
-  { "ko": "카리아의 대검", "en": "Carian Greatsword", "category": "아이템" },
   { "ko": "아듀라의 달의 검", "en": "Adula's Moonblade", "category": "아이템" },
   { "ko": "카리아의 속검", "en": "Carian Slicer", "category": "아이템" },
   { "ko": "카리아의 찌르기", "en": "Carian Piercer", "category": "아이템" },
@@ -2988,7 +2770,6 @@
   { "ko": "기적의 돌팔매", "en": "Ambush Shard", "category": "아이템" },
   { "ko": "밤의 돌팔매", "en": "Night Shard", "category": "아이템" },
   { "ko": "밤의 혜성", "en": "Night Comet", "category": "아이템" },
-  { "ko": "토푸스의 역장", "en": "Thops's Barrier", "category": "아이템" },
   { "ko": "카리아의 응보", "en": "Carian Retaliation", "category": "아이템" },
   { "ko": "영원한 암흑", "en": "Eternal Darkness", "category": "아이템" },
   { "ko": "보이지 않는 칼날", "en": "Unseen Blade", "category": "아이템" },
@@ -3099,7 +2880,6 @@
   { "ko": "암부의 보법", "en": "Assassin's Approach", "category": "아이템" },
   { "ko": "그림자 보내기", "en": "Shadow Bait", "category": "아이템" },
   { "ko": "어둠", "en": "Darkness", "category": "아이템" },
-  { "ko": "황금 나무에 맹세코", "en": "Golden Vow", "category": "아이템" },
   { "ko": "빛고리", "en": "Discus of Light", "category": "아이템" },
   {
     "ko": "세 개의 빛고리",
@@ -4570,22 +4350,14 @@
     "en": "Chapel of Anticipation",
     "category": "장소"
   },
-  {
-    "ko": "도읍 로데일",
-    "en": "Leyndell, Royal Capital",
-    "category": "장소"
-  },
+  { "ko": "도읍 로데일", "en": "Leyndell, Royal Capital", "category": "장소" },
   {
     "ko": "재의 도읍 로데일",
     "en": "Leyndell, Ashen Capital",
     "category": "장소"
   },
   { "ko": "원탁", "en": "Roundtable Hold", "category": "장소" },
-  {
-    "ko": "에인세르 강 본류",
-    "en": "Ainsel River Main",
-    "category": "장소"
-  },
+  { "ko": "에인세르 강 본류", "en": "Ainsel River Main", "category": "장소" },
   { "ko": "부패한 호수", "en": "Lake of Rot", "category": "장소" },
   { "ko": "에인세르 강", "en": "Ainsel River", "category": "장소" },
   {
@@ -4611,11 +4383,7 @@
     "en": "Elphael, Brace of the Haligtree",
     "category": "장소"
   },
-  {
-    "ko": "미켈라의 성수",
-    "en": "Miquella's Haligtree",
-    "category": "장소"
-  },
+  { "ko": "미켈라의 성수", "en": "Miquella's Haligtree", "category": "장소" },
   { "ko": "화산관", "en": "Volcano Manor", "category": "장소" },
   { "ko": "표류 묘지", "en": "Stranded Graveyard", "category": "장소" },
   {
@@ -4665,11 +4433,7 @@
     "en": "Sainted Hero's Grave",
     "category": "장소"
   },
-  {
-    "ko": "겔미어 영웅 묘지",
-    "en": "Gelmir Hero's Grave",
-    "category": "장소"
-  },
+  { "ko": "겔미어 영웅 묘지", "en": "Gelmir Hero's Grave", "category": "장소" },
   {
     "ko": "아우리자 영웅 묘지",
     "en": "Auriza Hero's Grave",
@@ -4680,22 +4444,14 @@
     "en": "Deathtouched Catacombs",
     "category": "장소"
   },
-  {
-    "ko": "추한 지하 묘지",
-    "en": "Unsightly Catacombs",
-    "category": "장소"
-  },
+  { "ko": "추한 지하 묘지", "en": "Unsightly Catacombs", "category": "장소" },
   { "ko": "아우리자 부묘지", "en": "Auriza Side Tomb", "category": "장소" },
   {
     "ko": "작은 황금 나무 지하 묘지",
     "en": "Minor Erdtree Catacombs",
     "category": "장소"
   },
-  {
-    "ko": "케일리드 지하 묘지",
-    "en": "Caelid Catacombs",
-    "category": "장소"
-  },
+  { "ko": "케일리드 지하 묘지", "en": "Caelid Catacombs", "category": "장소" },
   {
     "ko": "영령들의 지하 묘지",
     "en": "War-Dead Catacombs",
@@ -4722,11 +4478,7 @@
     "category": "장소"
   },
   { "ko": "흐린 강 동굴", "en": "Murkwater Cave", "category": "장소" },
-  {
-    "ko": "구멍을 내려가는 동굴",
-    "en": "Earthbore Cave",
-    "category": "장소"
-  },
+  { "ko": "구멍을 내려가는 동굴", "en": "Earthbore Cave", "category": "장소" },
   { "ko": "영묘 들판 동굴", "en": "Tombsward Cave", "category": "장소" },
   { "ko": "숲 옆 동굴", "en": "Groveside Cave", "category": "장소" },
   { "ko": "유수 동굴", "en": "Stillwater Cave", "category": "장소" },
@@ -4735,27 +4487,15 @@
     "en": "Lakeside Crystal Cave",
     "category": "장소"
   },
-  {
-    "ko": "학원 결정 동굴",
-    "en": "Academy Crystal Cave",
-    "category": "장소"
-  },
+  { "ko": "학원 결정 동굴", "en": "Academy Crystal Cave", "category": "장소" },
   { "ko": "끓는 강 동굴", "en": "Seethewater Cave", "category": "장소" },
   { "ko": "화산 동굴", "en": "Volcano Cave", "category": "장소" },
   { "ko": "용총 동굴", "en": "Dragonbarrow Cave", "category": "장소" },
-  {
-    "ko": "사리아의 은신 동굴",
-    "en": "Sellia Hideaway",
-    "category": "장소"
-  },
+  { "ko": "사리아의 은신 동굴", "en": "Sellia Hideaway", "category": "장소" },
   { "ko": "기댈 동굴", "en": "Cave of the Forlorn", "category": "장소" },
   { "ko": "해안 동굴", "en": "Coastal Cave", "category": "장소" },
   { "ko": "높은 길 아래 동굴", "en": "Highroad Cave", "category": "장소" },
-  {
-    "ko": "조향사의 은신 동굴",
-    "en": "Perfumer's Grotto",
-    "category": "장소"
-  },
+  { "ko": "조향사의 은신 동굴", "en": "Perfumer's Grotto", "category": "장소" },
   { "ko": "현자의 동굴", "en": "Sage's Cave", "category": "장소" },
   { "ko": "폐기 동굴", "en": "Abandoned Cave", "category": "장소" },
   { "ko": "감옥 동굴", "en": "Gaol Cave", "category": "장소" },
@@ -4775,11 +4515,7 @@
     "en": "Sellia Crystal Tunnel",
     "category": "장소"
   },
-  {
-    "ko": "옐로 아니스 갱도",
-    "en": "Yelough Anix Tunnel",
-    "category": "장소"
-  },
+  { "ko": "옐로 아니스 갱도", "en": "Yelough Anix Tunnel", "category": "장소" },
   {
     "ko": "림그레이브 신수탑",
     "en": "Divine Tower of Limgrave",
@@ -4807,34 +4543,18 @@
     "en": "Divine Tower of East Altus",
     "category": "장소"
   },
-  {
-    "ko": "고립된 신수탑",
-    "en": "Isolated Divine Tower",
-    "category": "장소"
-  },
+  { "ko": "고립된 신수탑", "en": "Isolated Divine Tower", "category": "장소" },
   {
     "ko": "흉조가 버려진 지하",
     "en": "Subterranean Shunning-Grounds",
     "category": "장소"
   },
-  {
-    "ko": "로데일 지하 묘지",
-    "en": "Leyndell Catacombs",
-    "category": "장소"
-  },
-  {
-    "ko": "옛 유적 절벽",
-    "en": "Ruin-Strewn Precipice",
-    "category": "장소"
-  },
+  { "ko": "로데일 지하 묘지", "en": "Leyndell Catacombs", "category": "장소" },
+  { "ko": "옛 유적 절벽", "en": "Ruin-Strewn Precipice", "category": "장소" },
   { "ko": "림그레이브", "en": "Limgrave", "category": "장소" },
   { "ko": "폭풍의 언덕", "en": "Stormhill", "category": "장소" },
   { "ko": "흐느낌의 반도", "en": "Weeping Peninsula", "category": "장소" },
-  {
-    "ko": "호수의 리에니에",
-    "en": "Liurnia of the Lakes",
-    "category": "장소"
-  },
+  { "ko": "호수의 리에니에", "en": "Liurnia of the Lakes", "category": "장소" },
   { "ko": "벨룸 가도", "en": "Bellum Highway", "category": "장소" },
   { "ko": "월광의 제단", "en": "Moonlight Altar", "category": "장소" },
   { "ko": "알터 고원", "en": "Altus Plateau", "category": "장소" },
@@ -4854,26 +4574,14 @@
     "category": "장소"
   },
   { "ko": "불의 정상", "en": "Flame Peak", "category": "장소" },
-  {
-    "ko": "구별된 설원",
-    "en": "Consecrated Snowfield",
-    "category": "장소"
-  },
-  {
-    "ko": "접목의 고드릭",
-    "en": "Godrick the Grafted",
-    "category": "장소"
-  },
+  { "ko": "구별된 설원", "en": "Consecrated Snowfield", "category": "장소" },
+  { "ko": "접목의 고드릭", "en": "Godrick the Grafted", "category": "장소" },
   {
     "ko": "끔찍한 흉조 멀기트",
     "en": "Margit, the Fell Omen",
     "category": "장소"
   },
-  {
-    "ko": "성으로 향하는 굴",
-    "en": "Castleward Tunnel",
-    "category": "장소"
-  },
+  { "ko": "성으로 향하는 굴", "en": "Castleward Tunnel", "category": "장소" },
   { "ko": "성문 옆 작은 방", "en": "Gateside Chamber", "category": "장소" },
   { "ko": "스톰빌 절벽", "en": "Stormveil Cliffside", "category": "장소" },
   { "ko": "성벽 탑", "en": "Rampart Tower", "category": "장소" },
@@ -4881,27 +4589,11 @@
   { "ko": "후미진 작은 방", "en": "Secluded Cell", "category": "장소" },
   { "ko": "스톰빌 정문", "en": "Stormveil Main Gate", "category": "장소" },
   { "ko": "엘데의 왕좌", "en": "Elden Throne", "category": "장소" },
-  {
-    "ko": "황금 나무의 대성당",
-    "en": "Erdtree Sanctuary",
-    "category": "장소"
-  },
-  {
-    "ko": "도읍 동쪽 성벽",
-    "en": "East Capital Rampart",
-    "category": "장소"
-  },
-  {
-    "ko": "도읍 하층 교회",
-    "en": "Lower Capital Church",
-    "category": "장소"
-  },
+  { "ko": "황금 나무의 대성당", "en": "Erdtree Sanctuary", "category": "장소" },
+  { "ko": "도읍 동쪽 성벽", "en": "East Capital Rampart", "category": "장소" },
+  { "ko": "도읍 하층 교회", "en": "Lower Capital Church", "category": "장소" },
   { "ko": "대로 옆 노대", "en": "Avenue Balcony", "category": "장소" },
-  {
-    "ko": "도읍 서쪽 성벽",
-    "en": "West Capital Rampart",
-    "category": "장소"
-  },
+  { "ko": "도읍 서쪽 성벽", "en": "West Capital Rampart", "category": "장소" },
   { "ko": "여왕의 규방", "en": "Queen's Bedchamber", "category": "장소" },
   {
     "ko": "성관 1층",
@@ -4945,11 +4637,7 @@
     "en": "Nokstella, Eternal City",
     "category": "장소"
   },
-  {
-    "ko": "부패한 호숫가",
-    "en": "Lake of Rot Shoreside",
-    "category": "장소"
-  },
+  { "ko": "부패한 호숫가", "en": "Lake of Rot Shoreside", "category": "장소" },
   { "ko": "대회랑", "en": "Grand Cloister", "category": "장소" },
   {
     "ko": "녹스텔라 폭포",
@@ -4973,16 +4661,8 @@
     "en": "Prince of Death's Throne",
     "category": "장소"
   },
-  {
-    "ko": "뿌리를 향한 절벽",
-    "en": "Root-Facing Cliffs",
-    "category": "장소"
-  },
-  {
-    "ko": "대폭포 정상",
-    "en": "Great Waterfall Crest",
-    "category": "장소"
-  },
+  { "ko": "뿌리를 향한 절벽", "en": "Root-Facing Cliffs", "category": "장소" },
+  { "ko": "대폭포 정상", "en": "Great Waterfall Crest", "category": "장소" },
   {
     "ko": "이름 없는 영원한 도읍",
     "en": "The Nameless Eternal City",
@@ -5029,11 +4709,7 @@
     "en": "Dragonlord Placidusax",
     "category": "장소"
   },
-  {
-    "ko": "용성당의 제단",
-    "en": "Dragon Temple Altar",
-    "category": "장소"
-  },
+  { "ko": "용성당의 제단", "en": "Dragon Temple Altar", "category": "장소" },
   {
     "ko": "무너지는 짐승묘",
     "en": "Crumbling Beast Grave",
@@ -5050,42 +4726,18 @@
     "category": "장소"
   },
   { "ko": "용성당", "en": "Dragon Temple", "category": "장소" },
-  {
-    "ko": "용성당 익랑",
-    "en": "Dragon Temple Transept",
-    "category": "장소"
-  },
-  {
-    "ko": "용성당 승강기 앞",
-    "en": "Dragon Temple Lift",
-    "category": "장소"
-  },
-  {
-    "ko": "용성당 지붕 위",
-    "en": "Dragon Temple Rooftop",
-    "category": "장소"
-  },
-  {
-    "ko": "대도량 옆",
-    "en": "Beside the Great Bridge",
-    "category": "장소"
-  },
+  { "ko": "용성당 익랑", "en": "Dragon Temple Transept", "category": "장소" },
+  { "ko": "용성당 승강기 앞", "en": "Dragon Temple Lift", "category": "장소" },
+  { "ko": "용성당 지붕 위", "en": "Dragon Temple Rooftop", "category": "장소" },
+  { "ko": "대도량 옆", "en": "Beside the Great Bridge", "category": "장소" },
   {
     "ko": "레아 루카리아 대서고",
     "en": "Raya Lucaria Grand Library",
     "category": "장소"
   },
   { "ko": "토론실", "en": "Debate Parlor", "category": "장소" },
-  {
-    "ko": "뻐꾸기의 교회",
-    "en": "Church of the Cuckoo",
-    "category": "장소"
-  },
-  {
-    "ko": "배움터의 방",
-    "en": "Schoolhouse Classroom",
-    "category": "장소"
-  },
+  { "ko": "뻐꾸기의 교회", "en": "Church of the Cuckoo", "category": "장소" },
+  { "ko": "배움터의 방", "en": "Schoolhouse Classroom", "category": "장소" },
   {
     "ko": "부패의 여신 말레니아",
     "en": "Malenia, Goddess of Rot",
@@ -5095,51 +4747,27 @@
   { "ko": "에브레펠 내벽", "en": "Elphael Inner Wall", "category": "장소" },
   { "ko": "배수로", "en": "Drainage Channel", "category": "장소" },
   { "ko": "성수 최하층", "en": "Haligtree Roots", "category": "장소" },
-  {
-    "ko": "성수의 대무대",
-    "en": "Haligtree Promenade",
-    "category": "장소"
-  },
-  {
-    "ko": "성수의 높은 가지",
-    "en": "Haligtree Canopy",
-    "category": "장소"
-  },
+  { "ko": "성수의 대무대", "en": "Haligtree Promenade", "category": "장소" },
+  { "ko": "성수의 높은 가지", "en": "Haligtree Canopy", "category": "장소" },
   { "ko": "성수 거리", "en": "Haligtree Town", "category": "장소" },
-  {
-    "ko": "성수 거리 광장",
-    "en": "Haligtree Town Plaza",
-    "category": "장소"
-  },
+  { "ko": "성수 거리 광장", "en": "Haligtree Town Plaza", "category": "장소" },
   {
     "ko": "모독의 군주 라이커드",
     "en": "Rykard, Lord of Blasphemy",
     "category": "장소"
   },
   { "ko": "에이그레이 성당", "en": "Temple of Eiglay", "category": "장소" },
-  {
-    "ko": "감옥 거리 교회",
-    "en": "Prison Town Church",
-    "category": "장소"
-  },
+  { "ko": "감옥 거리 교회", "en": "Prison Town Church", "category": "장소" },
   { "ko": "영빈관", "en": "Guest Hall", "category": "장소" },
   { "ko": "알현의 길", "en": "Audience Pathway", "category": "장소" },
-  {
-    "ko": "납치하는 소녀 인형",
-    "en": "Abductor Virgin",
-    "category": "장소"
-  },
+  { "ko": "납치하는 소녀 인형", "en": "Abductor Virgin", "category": "장소" },
   {
     "ko": "땅 밑 책문소",
     "en": "Subterranean Inquisition Chamber",
     "category": "장소"
   },
   { "ko": "배움의 동굴", "en": "Cave of Knowledge", "category": "장소" },
-  {
-    "ko": "무너져가는 마리카",
-    "en": "Fractured Marika",
-    "category": "장소"
-  },
+  { "ko": "무너져가는 마리카", "en": "Fractured Marika", "category": "장소" },
   {
     "ko": "게르 갱도 뒷문",
     "en": "Rear Gael Tunnel Entrance",
@@ -5176,22 +4804,14 @@
     "en": "Divine Tower of East Altus: Gate",
     "category": "장소"
   },
-  {
-    "ko": "로르드로 가는 도중",
-    "en": "The Rold Route",
-    "category": "장소"
-  },
+  { "ko": "로르드로 가는 도중", "en": "The Rold Route", "category": "장소" },
   {
     "ko": "흉조가 버려진 대성당",
     "en": "Cathedral of the Forsaken",
     "category": "장소"
   },
   { "ko": "지하대로 옆", "en": "Underground Roadside", "category": "장소" },
-  {
-    "ko": "흉조가 버려진 밑바닥",
-    "en": "Forsaken Depths",
-    "category": "장소"
-  },
+  { "ko": "흉조가 버려진 밑바닥", "en": "Forsaken Depths", "category": "장소" },
   {
     "ko": "미친 불의 봉인",
     "en": "Frenzied Flame Proscription",
@@ -5209,45 +4829,25 @@
     "category": "장소"
   },
   { "ko": "엘레의 교회", "en": "Church of Elleh", "category": "장소" },
-  {
-    "ko": "폭풍 언덕의 낡은 집",
-    "en": "Stormhill Shack",
-    "category": "장소"
-  },
+  { "ko": "폭풍 언덕의 낡은 집", "en": "Stormhill Shack", "category": "장소" },
   { "ko": "화가의 낡은 집", "en": "Artist's Shack", "category": "장소" },
   {
     "ko": "제3 마리카 교회",
     "en": "Third Church of Marika",
     "category": "장소"
   },
-  {
-    "ko": "하이트 요새 서쪽",
-    "en": "Fort Haight West",
-    "category": "장소"
-  },
+  { "ko": "하이트 요새 서쪽", "en": "Fort Haight West", "category": "장소" },
   { "ko": "아길 호수 남쪽", "en": "Agheel Lake South", "category": "장소" },
   { "ko": "아길 호수 북쪽", "en": "Agheel Lake North", "category": "장소" },
-  {
-    "ko": "용찬 교회",
-    "en": "Church of Dragon Communion",
-    "category": "장소"
-  },
+  { "ko": "용찬 교회", "en": "Church of Dragon Communion", "category": "장소" },
   { "ko": "관문 앞", "en": "Gatefront", "category": "장소" },
   {
     "ko": "다리 앞 화원",
     "en": "Garden Beyond the Bridge",
     "category": "장소"
   },
-  {
-    "ko": "바다에 면한 옛 유적",
-    "en": "Seaside Ruins",
-    "category": "장소"
-  },
-  {
-    "ko": "안개 숲 변두리",
-    "en": "Mistwood Outskirts",
-    "category": "장소"
-  },
+  { "ko": "바다에 면한 옛 유적", "en": "Seaside Ruins", "category": "장소" },
+  { "ko": "안개 숲 변두리", "en": "Mistwood Outskirts", "category": "장소" },
   { "ko": "안개 숲", "en": "Mistwood", "category": "장소" },
   { "ko": "흐린 강 기슭", "en": "Murkwater Coast", "category": "장소" },
   { "ko": "성인 다리", "en": "Saintsbridge", "category": "장소" },
@@ -5261,11 +4861,7 @@
     "en": "Warmaster's Shack",
     "category": "장소"
   },
-  {
-    "ko": "역참터 지하실",
-    "en": "Waypoint Ruins Cellar",
-    "category": "장소"
-  },
+  { "ko": "역참터 지하실", "en": "Waypoint Ruins Cellar", "category": "장소" },
   { "ko": "인도의 시작", "en": "The First Step", "category": "장소" },
   {
     "ko": "제4 마리카 교회",
@@ -5294,41 +4890,17 @@
     "en": "Isolated Merchant's Shack",
     "category": "장소"
   },
-  {
-    "ko": "제물 이송 대교",
-    "en": "Bridge of Sacrifice",
-    "category": "장소"
-  },
-  {
-    "ko": "몬 성 승강기 앞",
-    "en": "Castle Morne Lift",
-    "category": "장소"
-  },
+  { "ko": "제물 이송 대교", "en": "Bridge of Sacrifice", "category": "장소" },
+  { "ko": "몬 성 승강기 앞", "en": "Castle Morne Lift", "category": "장소" },
   { "ko": "성 뒤편", "en": "Behind the Castle", "category": "장소" },
-  {
-    "ko": "성벽 감옥 옆",
-    "en": "Beside the Rampart Gaol",
-    "category": "장소"
-  },
+  { "ko": "성벽 감옥 옆", "en": "Beside the Rampart Gaol", "category": "장소" },
   { "ko": "몬의 한탄묘", "en": "Morne Moangrave", "category": "장소" },
   { "ko": "순례교회", "en": "Church of Pilgrimage", "category": "장소" },
-  {
-    "ko": "호수를 향한 절벽",
-    "en": "Lake-Facing Cliffs",
-    "category": "장소"
-  },
-  {
-    "ko": "리에니에 호숫가",
-    "en": "Liurnia Lake Shore",
-    "category": "장소"
-  },
+  { "ko": "호수를 향한 절벽", "en": "Lake-Facing Cliffs", "category": "장소" },
+  { "ko": "리에니에 호숫가", "en": "Liurnia Lake Shore", "category": "장소" },
   { "ko": "라스카 폐허", "en": "Laskyar Ruins", "category": "장소" },
   { "ko": "조망섬", "en": "Scenic Isle", "category": "장소" },
-  {
-    "ko": "학원 문 앞 마을",
-    "en": "Academy Gate Town",
-    "category": "장소"
-  },
+  { "ko": "학원 문 앞 마을", "en": "Academy Gate Town", "category": "장소" },
   { "ko": "학원 정문 앞", "en": "Main Academy Gate", "category": "장소" },
   {
     "ko": "레아 루카리아 동문",
@@ -5336,31 +4908,19 @@
     "category": "장소"
   },
   { "ko": "벨룸 교회", "en": "Bellum Church", "category": "장소" },
-  {
-    "ko": "덱타스 대승강기",
-    "en": "Grand Lift of Dectus",
-    "category": "장소"
-  },
+  { "ko": "덱타스 대승강기", "en": "Grand Lift of Dectus", "category": "장소" },
   {
     "ko": "사종루 기슭",
     "en": "Foot of the Four Belfries",
     "category": "장소"
   },
-  {
-    "ko": "마술사탑의 작은 섬",
-    "en": "Sorcerer's Isle",
-    "category": "장소"
-  },
+  { "ko": "마술사탑의 작은 섬", "en": "Sorcerer's Isle", "category": "장소" },
   {
     "ko": "리에니에 호수 북쪽",
     "en": "Northern Liurnia Lake Shore",
     "category": "장소"
   },
-  {
-    "ko": "성관으로 가는 길",
-    "en": "Road to the Manor",
-    "category": "장소"
-  },
+  { "ko": "성관으로 가는 길", "en": "Road to the Manor", "category": "장소" },
   {
     "ko": "카리아 성관 정문",
     "en": "Main Caria Manor Gate",
@@ -5375,11 +4935,7 @@
   { "ko": "화가의 오두막", "en": "Artist's Shack", "category": "장소" },
   { "ko": "복수자의 오두막", "en": "Revenger's Shack", "category": "장소" },
   { "ko": "호수의 폴리", "en": "Folly on the Lake", "category": "장소" },
-  {
-    "ko": "백금 마을",
-    "en": "Village of the Albinaurics",
-    "category": "장소"
-  },
+  { "ko": "백금 마을", "en": "Village of the Albinaurics", "category": "장소" },
   {
     "ko": "리에니에 가도 북쪽",
     "en": "Liurnia Highway North",
@@ -5417,11 +4973,7 @@
     "category": "장소"
   },
   { "ko": "개종된 탑", "en": "Converted Tower", "category": "장소" },
-  {
-    "ko": "카리아 성관 뒤편",
-    "en": "Behind Caria Manor",
-    "category": "장소"
-  },
+  { "ko": "카리아 성관 뒤편", "en": "Behind Caria Manor", "category": "장소" },
   {
     "ko": "미친 불 마을 변두리",
     "en": "Frenzied Flame Village Outskirts",
@@ -5469,11 +5021,7 @@
     "en": "Altus Highway Junction",
     "category": "장소"
   },
-  {
-    "ko": "성벽을 따라 난 샛길",
-    "en": "Rampartside Path",
-    "category": "장소"
-  },
+  { "ko": "성벽을 따라 난 샛길", "en": "Rampartside Path", "category": "장소" },
   {
     "ko": "속세를 떠난 상인의 오두막",
     "en": "Hermit Merchant's Shack",
@@ -5496,23 +5044,11 @@
     "en": "Outer Wall Phantom Tree",
     "category": "장소"
   },
-  {
-    "ko": "외곽 전장터",
-    "en": "Outer Wall Battleground",
-    "category": "장소"
-  },
-  {
-    "ko": "풍차 마을 고지대",
-    "en": "Windmill Heights",
-    "category": "장소"
-  },
+  { "ko": "외곽 전장터", "en": "Outer Wall Battleground", "category": "장소" },
+  { "ko": "풍차 마을 고지대", "en": "Windmill Heights", "category": "장소" },
   { "ko": "도읍 성벽 앞", "en": "Capital Rampart", "category": "장소" },
   { "ko": "성주의 응접실", "en": "Castellan's Hall", "category": "장소" },
-  {
-    "ko": "그늘성 성벽",
-    "en": "Shaded Castle Ramparts",
-    "category": "장소"
-  },
+  { "ko": "그늘성 성벽", "en": "Shaded Castle Ramparts", "category": "장소" },
   {
     "ko": "그늘성 안쪽 문",
     "en": "Shaded Castle Inner Gate",
@@ -5531,11 +5067,7 @@
   },
   { "ko": "죄인 이송용 길", "en": "Road of Iniquity", "category": "장소" },
   { "ko": "끓는 강", "en": "Seethewater River", "category": "장소" },
-  {
-    "ko": "끓는 강 종단",
-    "en": "Seethewater Terminus",
-    "category": "장소"
-  },
+  { "ko": "끓는 강 종단", "en": "Seethewater Terminus", "category": "장소" },
   { "ko": "장인의 오두막", "en": "Craftsman's Shack", "category": "장소" },
   {
     "ko": "원류의 마술사 아줄",
@@ -5550,11 +5082,7 @@
     "category": "장소"
   },
   { "ko": "그을림의 벽", "en": "Smoldering Wall", "category": "장소" },
-  {
-    "ko": "시프라 강 안쪽 우물",
-    "en": "Deep Siofra Well",
-    "category": "장소"
-  },
+  { "ko": "시프라 강 안쪽 우물", "en": "Deep Siofra Well", "category": "장소" },
   { "ko": "키렘 폐허", "en": "Caelem Ruins", "category": "장소" },
   { "ko": "에오니아 중심", "en": "Heart of Aeonia", "category": "장소" },
   {
@@ -5562,27 +5090,11 @@
     "en": "Chair-Crypt of Sellia",
     "category": "장소"
   },
-  {
-    "ko": "불락의 대교",
-    "en": "Impassable Greatbridge",
-    "category": "장소"
-  },
-  {
-    "ko": "적사자성 광장",
-    "en": "Redmane Castle Plaza",
-    "category": "장소"
-  },
-  {
-    "ko": "광장 앞 방",
-    "en": "Chamber Outside the Plaza",
-    "category": "장소"
-  },
+  { "ko": "불락의 대교", "en": "Impassable Greatbridge", "category": "장소" },
+  { "ko": "적사자성 광장", "en": "Redmane Castle Plaza", "category": "장소" },
+  { "ko": "광장 앞 방", "en": "Chamber Outside the Plaza", "category": "장소" },
   { "ko": "게르 요새 북쪽", "en": "Fort Gael North", "category": "장소" },
-  {
-    "ko": "별 부수는 라단",
-    "en": "Starscourge Radahn",
-    "category": "장소"
-  },
+  { "ko": "별 부수는 라단", "en": "Starscourge Radahn", "category": "장소" },
   { "ko": "에오니아 늪가", "en": "Aeonia Swamp Shore", "category": "장소" },
   {
     "ko": "에오니아 늪 남쪽",
@@ -5594,11 +5106,7 @@
     "en": "Sellia Under-Stair",
     "category": "장소"
   },
-  {
-    "ko": "부패병의 교회",
-    "en": "Church of the Plague",
-    "category": "장소"
-  },
+  { "ko": "부패병의 교회", "en": "Church of the Plague", "category": "장소" },
   {
     "ko": "케일리드 가도 남쪽",
     "en": "Caelid Highway South",
@@ -5616,11 +5124,7 @@
     "category": "장소"
   },
   { "ko": "에오니아 늪 심부", "en": "Inner Aeonia", "category": "장소" },
-  {
-    "ko": "사리아 거리 뒤쪽",
-    "en": "Sellia Backstreets",
-    "category": "장소"
-  },
+  { "ko": "사리아 거리 뒤쪽", "en": "Sellia Backstreets", "category": "장소" },
   { "ko": "자미엘의 폐허", "en": "Zamor Ruins", "category": "장소" },
   {
     "ko": "옛 유적의 설곡",
@@ -5637,33 +5141,17 @@
   { "ko": "안식 교회", "en": "Church of Repose", "category": "장소" },
   { "ko": "불 가마 기슭", "en": "Foot of the Forge", "category": "장소" },
   { "ko": "불의 거인", "en": "Fire Giant", "category": "장소" },
-  {
-    "ko": "거인의 불 가마",
-    "en": "Forge of the Giants",
-    "category": "장소"
-  },
-  {
-    "ko": "로르드 대승강기",
-    "en": "Grand Lift of Rold",
-    "category": "장소"
-  },
+  { "ko": "거인의 불 가마", "en": "Forge of the Giants", "category": "장소" },
+  { "ko": "로르드 대승강기", "en": "Grand Lift of Rold", "category": "장소" },
   { "ko": "눈 능선길", "en": "Whiteridge Road", "category": "장소" },
   {
     "ko": "옛 유적 계곡 절벽 위",
     "en": "Snow Valley Ruins Overlook",
     "category": "장소"
   },
-  {
-    "ko": "소르 성채 정문",
-    "en": "Castle Sol Main Gate",
-    "category": "장소"
-  },
+  { "ko": "소르 성채 정문", "en": "Castle Sol Main Gate", "category": "장소" },
   { "ko": "일식 교회", "en": "Church of the Eclipse", "category": "장소" },
-  {
-    "ko": "소르 성채 옥상",
-    "en": "Castle Sol Rooftop",
-    "category": "장소"
-  },
+  { "ko": "소르 성채 옥상", "en": "Castle Sol Rooftop", "category": "장소" },
   {
     "ko": "구별된 설원 심부",
     "en": "Inner Consecrated Snowfield",
@@ -5677,11 +5165,7 @@
   { "ko": "기교의 폐옥", "en": "Apostate Derelict", "category": "장소" },
   { "ko": "안개 낀 숲의 폐허", "en": "Mistwood Ruins", "category": "장소" },
   { "ko": "역참터", "en": "Waypoint Ruins", "category": "장소" },
-  {
-    "ko": "용이 불태운 폐허",
-    "en": "Dragon-Burnt Ruins",
-    "category": "장소"
-  },
+  { "ko": "용이 불태운 폐허", "en": "Dragon-Burnt Ruins", "category": "장소" },
   { "ko": "관문 앞 폐허", "en": "Gatefront Ruins", "category": "장소" },
   { "ko": "마중물 마을", "en": "Summonwater Village", "category": "장소" },
   {
@@ -5695,16 +5179,8 @@
     "category": "장소"
   },
   { "ko": "폭풍의 관문", "en": "Stormgate", "category": "장소" },
-  {
-    "ko": "제물 이송용 대교",
-    "en": "Bridge of Sacrifice",
-    "category": "장소"
-  },
-  {
-    "ko": "시프라 강의 우물",
-    "en": "Siofra River Well",
-    "category": "장소"
-  },
+  { "ko": "제물 이송용 대교", "en": "Bridge of Sacrifice", "category": "장소" },
+  { "ko": "시프라 강의 우물", "en": "Siofra River Well", "category": "장소" },
   { "ko": "하이트 요새", "en": "Fort Haight", "category": "장소" },
   { "ko": "작은 황금 나무", "en": "Minor Erdtree", "category": "장소" },
   { "ko": "아길 호수", "en": "Agheel Lake", "category": "장소" },
@@ -5721,70 +5197,34 @@
   },
   { "ko": "마녀 봉인의 폐허", "en": "Witchbane Ruins", "category": "장소" },
   { "ko": "영묘 들판 폐허", "en": "Tombsward Ruins", "category": "장소" },
-  {
-    "ko": "아인 숲 폐허",
-    "en": "Demi-Human Forest Ruins",
-    "category": "장소"
-  },
+  { "ko": "아인 숲 폐허", "en": "Demi-Human Forest Ruins", "category": "장소" },
   { "ko": "병자 마을", "en": "Ailing Village", "category": "장소" },
   { "ko": "숲 감시탑", "en": "Forest Lookout Tower", "category": "장소" },
   { "ko": "귀환의 탑", "en": "Tower of Return", "category": "장소" },
-  {
-    "ko": "흐느낌의 봉인감옥",
-    "en": "Weeping Evergaol",
-    "category": "장소"
-  },
-  {
-    "ko": "오리티스의 마술사탑",
-    "en": "Oridys's Rise",
-    "category": "장소"
-  },
+  { "ko": "흐느낌의 봉인감옥", "en": "Weeping Evergaol", "category": "장소" },
+  { "ko": "오리티스의 마술사탑", "en": "Oridys's Rise", "category": "장소" },
   { "ko": "몬 성", "en": "Castle Morne", "category": "장소" },
-  {
-    "ko": "우르드의 왕조 유적",
-    "en": "Uld Palace Ruins",
-    "category": "장소"
-  },
+  { "ko": "우르드의 왕조 유적", "en": "Uld Palace Ruins", "category": "장소" },
   { "ko": "스리 시스터즈", "en": "Three Sisters", "category": "장소" },
   { "ko": "이리스 교회", "en": "Church of Irith", "category": "장소" },
   { "ko": "장미 교회", "en": "Rose Church", "category": "장소" },
   { "ko": "정화된 폐허", "en": "Purified Ruins", "category": "장소" },
   { "ko": "왕가령 폐허", "en": "Kingsrealm Ruins", "category": "장소" },
-  {
-    "ko": "미친 불 마을",
-    "en": "Frenzied Flame Village",
-    "category": "장소"
-  },
-  {
-    "ko": "가도 감시탑",
-    "en": "Highway Lookout Tower",
-    "category": "장소"
-  },
-  {
-    "ko": "미친 불의 등잔",
-    "en": "Frenzy-Flaming Tower",
-    "category": "장소"
-  },
+  { "ko": "미친 불 마을", "en": "Frenzied Flame Village", "category": "장소" },
+  { "ko": "가도 감시탑", "en": "Highway Lookout Tower", "category": "장소" },
+  { "ko": "미친 불의 등잔", "en": "Frenzy-Flaming Tower", "category": "장소" },
   {
     "ko": "도둑의 봉인감옥",
     "en": "Malefactor's Evergaol",
     "category": "장소"
   },
-  {
-    "ko": "뻐꾸기의 봉인감옥",
-    "en": "Cuckoo's Evergaol",
-    "category": "장소"
-  },
+  { "ko": "뻐꾸기의 봉인감옥", "en": "Cuckoo's Evergaol", "category": "장소" },
   {
     "ko": "왕가 묘지의 봉인감옥",
     "en": "Royal Grave Evergaol",
     "category": "장소"
   },
-  {
-    "ko": "에인세르 강 우물",
-    "en": "Ainsel River Well",
-    "category": "장소"
-  },
+  { "ko": "에인세르 강 우물", "en": "Ainsel River Well", "category": "장소" },
   { "ko": "테스의 마술사탑", "en": "Testu's Rise", "category": "장소" },
   { "ko": "셀브스의 마술사탑", "en": "Seluvis's Rise", "category": "장소" },
   { "ko": "레나의 마술사탑", "en": "Renna's Rise", "category": "장소" },
@@ -5795,11 +5235,7 @@
   },
   { "ko": "카리아 성관", "en": "Caria Manor", "category": "장소" },
   { "ko": "달의 민족의 폐허", "en": "Moonfolk Ruins", "category": "장소" },
-  {
-    "ko": "달의 귀족의 폐허",
-    "en": "Lunar Estate Ruins",
-    "category": "장소"
-  },
+  { "ko": "달의 귀족의 폐허", "en": "Lunar Estate Ruins", "category": "장소" },
   {
     "ko": "칼날 우두머리의 봉인감옥",
     "en": "Ringleader's Evergaol",
@@ -5810,16 +5246,8 @@
     "en": "Deep Ainsel Well",
     "category": "장소"
   },
-  {
-    "ko": "히에로나의 마술사탑",
-    "en": "Chelona's Rise",
-    "category": "장소"
-  },
-  {
-    "ko": "벼락 부름의 교회",
-    "en": "Stormcaller Church",
-    "category": "장소"
-  },
+  { "ko": "히에로나의 마술사탑", "en": "Chelona's Rise", "category": "장소" },
+  { "ko": "벼락 부름의 교회", "en": "Stormcaller Church", "category": "장소" },
   {
     "ko": "제2 마리카 교회",
     "en": "Second Church of Marika",
@@ -5833,11 +5261,7 @@
     "en": "Writheblood Ruins",
     "category": "장소"
   },
-  {
-    "ko": "트리나의 비소",
-    "en": "St. Trina's Hideaway",
-    "category": "장소"
-  },
+  { "ko": "트리나의 비소", "en": "St. Trina's Hideaway", "category": "장소" },
   {
     "ko": "풍차 마을 도미눌라",
     "en": "Dominula, Windmill Village",
@@ -5849,26 +5273,14 @@
     "category": "장소"
   },
   { "ko": "신기루의 마술사탑", "en": "Mirage Rise", "category": "장소" },
-  {
-    "ko": "서쪽 풍차 목장",
-    "en": "West Windmill Pasture",
-    "category": "장소"
-  },
-  {
-    "ko": "동쪽 풍차 목장",
-    "en": "East Windmill Pasture",
-    "category": "장소"
-  },
+  { "ko": "서쪽 풍차 목장", "en": "West Windmill Pasture", "category": "장소" },
+  { "ko": "동쪽 풍차 목장", "en": "East Windmill Pasture", "category": "장소" },
   {
     "ko": "마을의 풍차 목장",
     "en": "Village Windmill Pasture",
     "category": "장소"
   },
-  {
-    "ko": "도미눌라 관문",
-    "en": "Dominula Checkpoint",
-    "category": "장소"
-  },
+  { "ko": "도미눌라 관문", "en": "Dominula Checkpoint", "category": "장소" },
   { "ko": "그늘성", "en": "The Shaded Castle", "category": "장소" },
   {
     "ko": "화산관의 의뢰 「라일리」",
@@ -5924,28 +5336,16 @@
     "category": "장소"
   },
   { "ko": "이단의 마술사탑", "en": "Heretical Rise", "category": "장소" },
-  {
-    "ko": "감시자들의 요새",
-    "en": "Guardians' Garrison",
-    "category": "장소"
-  },
+  { "ko": "감시자들의 요새", "en": "Guardians' Garrison", "category": "장소" },
   { "ko": "소르 성채", "en": "Castle Sol", "category": "장소" },
   {
     "ko": "화산관의 의뢰 「유노 호슬로」",
     "en": "Volcano Manor Request: Juno Hoslow",
     "category": "장소"
   },
-  {
-    "ko": "옐로 아니스 폐허",
-    "en": "Yelough Anix Ruins",
-    "category": "장소"
-  },
+  { "ko": "옐로 아니스 폐허", "en": "Yelough Anix Ruins", "category": "장소" },
   { "ko": "백금의 마술사탑", "en": "Albinauric Rise", "category": "장소" },
-  {
-    "ko": "우르의 왕조 유적",
-    "en": "Uhl Palace Ruins",
-    "category": "장소"
-  },
+  { "ko": "우르의 왕조 유적", "en": "Uhl Palace Ruins", "category": "장소" },
   { "ko": "시프라 수도교", "en": "Siofra Aqueduct", "category": "장소" },
   { "ko": "각해의 영지", "en": "Hallowhorn Grounds", "category": "장소" },
   {
@@ -5963,11 +5363,6 @@
   {
     "ko": "원류의 마술사 루사트",
     "en": "Primeval Sorcerer Lusat",
-    "category": "NPC"
-  },
-  {
-    "ko": "원류의 마술사 아줄",
-    "en": "Primeval Sorcerer Azur",
     "category": "NPC"
   },
   { "ko": "금가면 경", "en": "The Noble Goldmask", "category": "NPC" },
@@ -5998,7 +5393,6 @@
   { "ko": "대장장이 이지", "en": "Smithing Master Iji", "category": "NPC" },
   { "ko": "참모 이지", "en": "War Counselor Iji", "category": "NPC" },
   { "ko": "작은 항아리", "en": "Jar-Bairn", "category": "NPC" },
-  { "ko": "백금의 라티나", "en": "Latenna the Albinauric", "category": "NPC" },
   { "ko": "타니스의 기사", "en": "Tanith's Knight", "category": "NPC" },
   {
     "ko": "큰 여동생 필리아",
@@ -6209,7 +5603,6 @@
     "category": "NPC"
   },
   { "ko": "쌍둥이 노파", "en": "Twin Maiden Husks", "category": "NPC" },
-  { "ko": "용찬 교회", "en": "Church of Dragon Communion", "category": "NPC" },
   { "ko": "작업대", "en": "Smithing Table", "category": "NPC" },
   {
     "ko": "걷는 영묘의 유체",
@@ -6217,12 +5610,6 @@
     "category": "NPC"
   },
   { "ko": "속죄의 물그릇", "en": "Basin of Atonement", "category": "NPC" },
-  {
-    "ko": "대용찬 교회",
-    "en": "Cathedral of Dragon Communion",
-    "category": "NPC"
-  },
-  { "ko": "무너져가는 마리카", "en": "Fractured Marika", "category": "NPC" },
   { "ko": "흐려진 화장대", "en": "Clouded Mirror Stand", "category": "NPC" },
   { "ko": "베르나르의 검", "en": "Sword of Bernahl", "category": "NPC" },
   { "ko": "손가락 읽는 노파", "en": "Finger Reader Crone", "category": "NPC" },
@@ -6252,23 +5639,8 @@
   },
   { "ko": "짐승 사제", "en": "Beast Clergyman", "category": "NPC" },
   {
-    "ko": "흑검 말리케스",
-    "en": "Maliketh, the Black Blade",
-    "category": "NPC"
-  },
-  {
     "ko": "미켈라의 칼날 말레니아",
     "en": "Malenia, Blade of Miquella",
-    "category": "NPC"
-  },
-  {
-    "ko": "부패의 여신 말레니아",
-    "en": "Malenia, Goddess of Rot",
-    "category": "NPC"
-  },
-  {
-    "ko": "끔찍한 흉조 멀기트",
-    "en": "Margit, the Fell Omen",
     "category": "NPC"
   },
   {
@@ -6325,7 +5697,6 @@
   { "ko": "친위기사 로레타", "en": "Royal Knight Loretta", "category": "NPC" },
   { "ko": "녹스의 승려", "en": "Nox Priest", "category": "NPC" },
   { "ko": "녹스의 검사", "en": "Nox Swordstress", "category": "NPC" },
-  { "ko": "화신의 물방울", "en": "Mimic Tear", "category": "NPC" },
   { "ko": "낙오된 화신의 물방울", "en": "Stray Mimic Tear", "category": "NPC" },
   { "ko": "결정인(지팡이)", "en": "Crystalian (Staff)", "category": "NPC" },
   { "ko": "결정인(창)", "en": "Crystalian (Spear)", "category": "NPC" },
@@ -6362,8 +5733,6 @@
   { "ko": "신의 살갗의 두 명", "en": "Godskin Duo", "category": "NPC" },
   { "ko": "돌 피부의 흑왕", "en": "Onyx Lord", "category": "NPC" },
   { "ko": "묘소 그림자", "en": "Cemetery Shade", "category": "NPC" },
-  { "ko": "조향사 트리샤", "en": "Perfumer Tricia", "category": "NPC" },
-  { "ko": "전쟁마술사 유그", "en": "Battlemage Hugues", "category": "NPC" },
   { "ko": "말레니아의 귀부기사", "en": "Cleanrot Knight", "category": "NPC" },
   {
     "ko": "말레니아의 귀부기사(창)",
@@ -6470,19 +5839,9 @@
   },
   { "ko": "사룡 포르삭스", "en": "Lichdragon Fortissax", "category": "NPC" },
   { "ko": "고룡 란삭스", "en": "Ancient Dragon Lansseax", "category": "NPC" },
-  {
-    "ko": "용왕 플라키두삭스",
-    "en": "Dragonlord Placidusax",
-    "category": "NPC"
-  },
   { "ko": "지렁이 얼굴", "en": "Wormface", "category": "NPC" },
   { "ko": "채석꾼 트롤", "en": "Stonedigger Troll", "category": "NPC" },
   { "ko": "카리아 기사 볼스", "en": "Bols, Carian Knight", "category": "NPC" },
-  {
-    "ko": "암흑의 부산물 아스테르",
-    "en": "Astel, Naturalborn of the Void",
-    "category": "NPC"
-  },
   {
     "ko": "암흑의 별들 아스테르",
     "en": "Astel, Stars of Darkness",
@@ -6491,11 +5850,6 @@
   { "ko": "룬베어", "en": "Runebear", "category": "NPC" },
   { "ko": "문드러진 나무령", "en": "Ulcerated Tree Spirit", "category": "NPC" },
   { "ko": "부패한 나무령", "en": "Putrid Tree Spirit", "category": "NPC" },
-  {
-    "ko": "녹스텔라의 용인병",
-    "en": "Dragonkin Soldier of Nokstella",
-    "category": "NPC"
-  },
   { "ko": "용인병", "en": "Dragonkin Soldier", "category": "NPC" },
   { "ko": "가디언 골렘", "en": "Guardian Golem", "category": "NPC" },
   { "ko": "선조령", "en": "Ancestor Spirit", "category": "NPC" },
@@ -6509,24 +5863,16 @@
   { "ko": "접목의 귀공자", "en": "Grafted Scion", "category": "NPC" },
   { "ko": "신을 먹는 큰 뱀", "en": "God-Devouring Serpent", "category": "NPC" },
   {
-    "ko": "모독의 군주 라이커드",
-    "en": "Rykard, Lord of Blasphemy",
-    "category": "NPC"
-  },
-  {
     "ko": "첫 왕 고드프리",
     "en": "Godfrey, First Elden Lord",
     "category": "NPC"
   },
   { "ko": "전사 호라 루", "en": "Hoarah Loux, Warrior", "category": "NPC" },
-  { "ko": "별 부수는 라단", "en": "Starscourge Radahn", "category": "NPC" },
-  { "ko": "접목의 고드릭", "en": "Godrick the Grafted", "category": "NPC" },
   {
     "ko": "접목의 고드플로어",
     "en": "Godefroy the Grafted",
     "category": "NPC"
   },
-  { "ko": "불의 거인", "en": "Fire Giant", "category": "NPC" },
   { "ko": "영웅의 가고일", "en": "Valiant Gargoyle", "category": "NPC" },
   {
     "ko": "영웅의 가고일(쌍날검)",
@@ -6540,7 +5886,6 @@
   { "ko": "부패한 화신", "en": "Putrid Avatar", "category": "NPC" },
   { "ko": "흉조잡이", "en": "Omenkiller", "category": "NPC" },
   { "ko": "용암토룡 마카르", "en": "Magma Wyrm Makar", "category": "NPC" },
-  { "ko": "용암토룡", "en": "Magma Wyrm", "category": "NPC" },
   {
     "ko": "대토룡 테오드릭스",
     "en": "Great Wyrm Theodorix",
@@ -6942,11 +6287,7 @@
     "category": "무기"
   },
   { "ko": "낡은 직검", "en": "Weathered Straight Sword", "category": "무기" },
-  {
-    "ko": "의장 직검",
-    "en": "Ornamental Straight Sword",
-    "category": "무기"
-  },
+  { "ko": "의장 직검", "en": "Ornamental Straight Sword", "category": "무기" },
   { "ko": "황금 묘비", "en": "Golden Epitaph", "category": "무기" },
   { "ko": "녹스의 유체검", "en": "Nox Flowing Sword", "category": "무기" },
   {
@@ -6985,11 +6326,7 @@
   { "ko": "바스타드 소드", "en": "Bastard Sword", "category": "무기" },
   { "ko": "두갈래 대검", "en": "Forked Greatsword", "category": "무기" },
   { "ko": "철 대검", "en": "Iron Greatsword", "category": "무기" },
-  {
-    "ko": "군주군의 대검",
-    "en": "Lordsworn's Greatsword",
-    "category": "무기"
-  },
+  { "ko": "군주군의 대검", "en": "Lordsworn's Greatsword", "category": "무기" },
   { "ko": "기사 대검", "en": "Knight's Greatsword", "category": "무기" },
   { "ko": "플랑베르주", "en": "Flamberge", "category": "무기" },
   {
@@ -7019,23 +6356,11 @@
     "category": "무기"
   },
   { "ko": "클레이모어", "en": "Claymore", "category": "무기" },
-  {
-    "ko": "가고일의 대검",
-    "en": "Gargoyle's Greatsword",
-    "category": "무기"
-  },
+  { "ko": "가고일의 대검", "en": "Gargoyle's Greatsword", "category": "무기" },
   { "ko": "죽음부지깽이", "en": "Death's Poker", "category": "무기" },
-  {
-    "ko": "가고일의 흑검",
-    "en": "Gargoyle's Blackblade",
-    "category": "무기"
-  },
+  { "ko": "가고일의 흑검", "en": "Gargoyle's Blackblade", "category": "무기" },
   { "ko": "그레이트 소드", "en": "Greatsword", "category": "무기" },
-  {
-    "ko": "파수견의 대검",
-    "en": "Watchdog's Greatsword",
-    "category": "무기"
-  },
+  { "ko": "파수견의 대검", "en": "Watchdog's Greatsword", "category": "무기" },
   {
     "ko": "말리케스의 흑검",
     "en": "Maliketh's Black Blade",
@@ -7053,11 +6378,7 @@
     "en": "Royal Greatsword",
     "category": "무기"
   },
-  {
-    "ko": "신 사냥의 검",
-    "en": "Godslayer's Greatsword",
-    "category": "무기"
-  },
+  { "ko": "신 사냥의 검", "en": "Godslayer's Greatsword", "category": "무기" },
   { "ko": "유적의 대검", "en": "Ruins Greatsword", "category": "무기" },
   {
     "ko": "검 잇기의 대검",
@@ -7085,11 +6406,7 @@
     "category": "무기"
   },
   { "ko": "펄션", "en": "Falchion", "category": "무기" },
-  {
-    "ko": "수인의 곡도",
-    "en": "Beastman's Curved Sword",
-    "category": "무기"
-  },
+  { "ko": "수인의 곡도", "en": "Beastman's Curved Sword", "category": "무기" },
   { "ko": "쇼텔", "en": "Shotel", "category": "무기" },
   { "ko": "샴시르", "en": "Shamshir", "category": "무기" },
   { "ko": "산적의 곡도", "en": "Bandit's Curved Sword", "category": "무기" },
@@ -7167,11 +6484,7 @@
     "en": "Abundance Twinblade",
     "category": "무기"
   },
-  {
-    "ko": "가고일의 쌍날검",
-    "en": "Gargoyle's Twinblade",
-    "category": "무기"
-  },
+  { "ko": "가고일의 쌍날검", "en": "Gargoyle's Twinblade", "category": "무기" },
   {
     "ko": "가고일의 흑쌍날검",
     "en": "Gargoyle's Black Blades",
@@ -7272,11 +6585,7 @@
     "en": "Gargoyle's Great Axe",
     "category": "무기"
   },
-  {
-    "ko": "가고일의 흑도끼",
-    "en": "Gargoyle's Black Axe",
-    "category": "무기"
-  },
+  { "ko": "가고일의 흑도끼", "en": "Gargoyle's Black Axe", "category": "무기" },
   { "ko": "숏 스피어", "en": "Short Spear", "category": "무기" },
   { "ko": "스피어", "en": "Spear", "category": "무기" },
   { "ko": "결정창", "en": "Crystal Spear", "category": "무기" },
@@ -7297,11 +6606,7 @@
   { "ko": "가시몽둥이", "en": "Spiked Spear", "category": "무기" },
   { "ko": "철 창", "en": "Iron Spear", "category": "무기" },
   { "ko": "부패한 결정창", "en": "Rotten Crystal Spear", "category": "무기" },
-  {
-    "ko": "모그윈의 성창",
-    "en": "Mohgwyn's Sacred Spear",
-    "category": "무기"
-  },
+  { "ko": "모그윈의 성창", "en": "Mohgwyn's Sacred Spear", "category": "무기" },
   { "ko": "실루리아의 나무창", "en": "Siluria's Tree", "category": "무기" },
   { "ko": "큰 뱀 사냥꾼", "en": "Serpent-Hunter", "category": "무기" },
   { "ko": "바이크의 전투 창", "en": "Vyke's War Spear", "category": "무기" },
@@ -7316,11 +6621,7 @@
     "category": "무기"
   },
   { "ko": "노장의 군기", "en": "Commander's Standard", "category": "무기" },
-  {
-    "ko": "밤 기병의 글레이브",
-    "en": "Nightrider Glaive",
-    "category": "무기"
-  },
+  { "ko": "밤 기병의 글레이브", "en": "Nightrider Glaive", "category": "무기" },
   {
     "ko": "일그러진 파문 도끼창",
     "en": "Ripple Crescent Halberd",
@@ -7334,11 +6635,7 @@
     "en": "Loretta's War Sickle",
     "category": "무기"
   },
-  {
-    "ko": "수호자의 검창",
-    "en": "Guardian's Swordspear",
-    "category": "무기"
-  },
+  { "ko": "수호자의 검창", "en": "Guardian's Swordspear", "category": "무기" },
   {
     "ko": "천한 병사의 쇼텔",
     "en": "Vulgar Militia Shotel",
@@ -7386,11 +6683,7 @@
   },
   { "ko": "파수견의 석장", "en": "Watchdog's Staff", "category": "무기" },
   { "ko": "그레이트 클럽", "en": "Great Club", "category": "무기" },
-  {
-    "ko": "사자들의 부채피리",
-    "en": "Envoy's Greathorn",
-    "category": "무기"
-  },
+  { "ko": "사자들의 부채피리", "en": "Envoy's Greathorn", "category": "무기" },
   { "ko": "투사의 대형 도끼", "en": "Duelist Greataxe", "category": "무기" },
   { "ko": "고드프리의 왕 도끼", "en": "Axe of Godfrey", "category": "무기" },
   { "ko": "대룡조", "en": "Dragon Greatclaw", "category": "무기" },
@@ -7406,20 +6699,12 @@
   { "ko": "강선 토치", "en": "Steel-Wire Torch", "category": "무기" },
   { "ko": "트리나의 등불", "en": "St. Trina's Torch", "category": "무기" },
   { "ko": "영혼 불 토치", "en": "Ghostflame Torch", "category": "무기" },
-  {
-    "ko": "짐승 쫓는 횃불",
-    "en": "Beast-Repellent Torch",
-    "category": "무기"
-  },
+  { "ko": "짐승 쫓는 횃불", "en": "Beast-Repellent Torch", "category": "무기" },
   { "ko": "보초의 횃불", "en": "Sentry's Torch", "category": "무기" },
   { "ko": "버클러", "en": "Buckler", "category": "무기" },
   { "ko": "조향사의 방패", "en": "Perfumer's Shield", "category": "무기" },
   { "ko": "뱀인간의 방패", "en": "Man-Serpent's Shield", "category": "무기" },
-  {
-    "ko": "거의 망가진 나무 방패",
-    "en": "Rickety Shield",
-    "category": "무기"
-  },
+  { "ko": "거의 망가진 나무 방패", "en": "Rickety Shield", "category": "무기" },
   { "ko": "멍에 방패", "en": "Pillory Shield", "category": "무기" },
   {
     "ko": "수인의 항아리 방패",
@@ -7489,22 +6774,14 @@
     "category": "무기"
   },
   { "ko": "놋쇠 방패", "en": "Brass Shield", "category": "무기" },
-  {
-    "ko": "큰 거북의 등딱지",
-    "en": "Great Turtle Shell",
-    "category": "무기"
-  },
+  { "ko": "큰 거북의 등딱지", "en": "Great Turtle Shell", "category": "무기" },
   { "ko": "죄인의 방패", "en": "Shield of the Guilty", "category": "무기" },
   {
     "ko": "카리아의 기사 방패",
     "en": "Carian Knight's Shield",
     "category": "무기"
   },
-  {
-    "ko": "라지 레더 실드",
-    "en": "Large Leather Shield",
-    "category": "무기"
-  },
+  { "ko": "라지 레더 실드", "en": "Large Leather Shield", "category": "무기" },
   {
     "ko": "말 문양 우드 실드",
     "en": "Horse Crest Wooden Shield",
@@ -7551,22 +6828,14 @@
     "category": "무기"
   },
   { "ko": "히터 실드", "en": "Heater Shield", "category": "무기" },
-  {
-    "ko": "블랙 레더 실드",
-    "en": "Black Leather Shield",
-    "category": "무기"
-  },
+  { "ko": "블랙 레더 실드", "en": "Black Leather Shield", "category": "무기" },
   { "ko": "용의 타워 실드", "en": "Dragon Towershield", "category": "무기" },
   {
     "ko": "명가의 대형 방패",
     "en": "Distinguished Greatshield",
     "category": "무기"
   },
-  {
-    "ko": "도가니의 뿔 방패",
-    "en": "Crucible Hornshield",
-    "category": "무기"
-  },
+  { "ko": "도가니의 뿔 방패", "en": "Crucible Hornshield", "category": "무기" },
   { "ko": "용 발톱의 방패", "en": "Dragonclaw Shield", "category": "무기" },
   { "ko": "철가시 대형 방패", "en": "Briar Greatshield", "category": "무기" },
   {
@@ -7588,11 +6857,7 @@
   { "ko": "신성화의 방패", "en": "Icon Shield", "category": "무기" },
   { "ko": "외눈 방패", "en": "One-Eyed Shield", "category": "무기" },
   { "ko": "안면 방패", "en": "Visage Shield", "category": "무기" },
-  {
-    "ko": "압정 벽 방패",
-    "en": "Spiked Palisade Shield",
-    "category": "무기"
-  },
+  { "ko": "압정 벽 방패", "en": "Spiked Palisade Shield", "category": "무기" },
   { "ko": "성관의 타워 실드", "en": "Manor Towershield", "category": "무기" },
   {
     "ko": "교차수 타워 실드",
@@ -7615,16 +6880,8 @@
     "en": "Eclipse Crest Greatshield",
     "category": "무기"
   },
-  {
-    "ko": "뻐꾸기 대형 방패",
-    "en": "Cuckoo Greatshield",
-    "category": "무기"
-  },
-  {
-    "ko": "황금의 대형 방패",
-    "en": "Golden Greatshield",
-    "category": "무기"
-  },
+  { "ko": "뻐꾸기 대형 방패", "en": "Cuckoo Greatshield", "category": "무기" },
+  { "ko": "황금의 대형 방패", "en": "Golden Greatshield", "category": "무기" },
   { "ko": "금장 대형 방패", "en": "Gilded Greatshield", "category": "무기" },
   {
     "ko": "성수 문양 대형 방패",
@@ -7697,11 +6954,7 @@
   { "ko": "용찬의 표식", "en": "Dragon Communion Seal", "category": "무기" },
   { "ko": "미친 불의 성인", "en": "Frenzied Flame Seal", "category": "무기" },
   { "ko": "숏 보우", "en": "Shortbow", "category": "무기" },
-  {
-    "ko": "혼종의 숏 보우",
-    "en": "Misbegotten Shortbow",
-    "category": "무기"
-  },
+  { "ko": "혼종의 숏 보우", "en": "Misbegotten Shortbow", "category": "무기" },
   {
     "ko": "붉은 나무 숏 보우",
     "en": "Red Branch Shortbow",
@@ -7737,11 +6990,7 @@
   { "ko": "화살", "en": "Arrow", "category": "무기" },
   { "ko": "불화살", "en": "Fire Arrow", "category": "무기" },
   { "ko": "독화살", "en": "Serpent Arrow", "category": "무기" },
-  {
-    "ko": "뼈 화살(깃털)",
-    "en": "Bone Arrow (Fletched)",
-    "category": "무기"
-  },
+  { "ko": "뼈 화살(깃털)", "en": "Bone Arrow (Fletched)", "category": "무기" },
   { "ko": "트리나의 화살", "en": "St. Trina's Arrow", "category": "무기" },
   {
     "ko": "가는 조각 화살(깃털)",
@@ -7774,11 +7023,7 @@
     "category": "무기"
   },
   { "ko": "뼈 수면화살", "en": "Sleepbone Arrow", "category": "무기" },
-  {
-    "ko": "폭풍깃 뼈 화살",
-    "en": "Stormwing Bone Arrow",
-    "category": "무기"
-  },
+  { "ko": "폭풍깃 뼈 화살", "en": "Stormwing Bone Arrow", "category": "무기" },
   {
     "ko": "뼈 벼락화살(깃털)",
     "en": "Lightningbone Arrow (Fletched)",
@@ -7820,17 +7065,9 @@
   },
   { "ko": "뼈 부패화살", "en": "Rotbone Arrow", "category": "무기" },
   { "ko": "대형 화살", "en": "Great Arrow", "category": "무기" },
-  {
-    "ko": "골렘의 대형 화살",
-    "en": "Golem's Great Arrow",
-    "category": "무기"
-  },
+  { "ko": "골렘의 대형 화살", "en": "Golem's Great Arrow", "category": "무기" },
   { "ko": "황금 대형 화살", "en": "Golden Great Arrow", "category": "무기" },
-  {
-    "ko": "골렘의 마력 화살",
-    "en": "Golem's Magic Arrow",
-    "category": "무기"
-  },
+  { "ko": "골렘의 마력 화살", "en": "Golem's Magic Arrow", "category": "무기" },
   { "ko": "라단의 창", "en": "Radahn's Spear", "category": "무기" },
   {
     "ko": "뼈 대형 화살(깃털)",
@@ -7864,10 +7101,6 @@
     "en": "Lightning Greatbolt",
     "category": "무기"
   },
-  {
-    "ko": "폭발의 대형 볼트",
-    "en": "Explosive Greatbolt",
-    "category": "무기"
-  },
+  { "ko": "폭발의 대형 볼트", "en": "Explosive Greatbolt", "category": "무기" },
   { "ko": "뼈 발리스타 볼트", "en": "Bone Ballista Bolt", "category": "무기" }
 ]

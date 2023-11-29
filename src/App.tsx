@@ -1,64 +1,43 @@
-import {
-  ColorSchemeProvider,
-  Container,
-  Global,
-  MantineProvider,
-} from "@mantine/core";
+import { Box, Container, useComputedColorScheme } from "@mantine/core";
 
 import Body from "./components/Body";
-import type { ColorScheme } from "@mantine/core";
 import Header from "./components/Header";
-import { useState } from "react";
-import { useColorScheme } from "@mantine/hooks";
 
-export type Dict = {
+export type DictEntry = {
   ko: string;
   en: string;
   category: string;
 };
 
 const App = () => {
-  const preferredColorScheme = useColorScheme();
-  const [colorScheme, setColorScheme] =
-    useState<ColorScheme>(preferredColorScheme);
-  const toggleColorScheme = (value?: ColorScheme) =>
-    setColorScheme(value || (colorScheme === "light" ? "dark" : "light"));
+  const computedColorScheme = useComputedColorScheme("dark");
 
   return (
-    <ColorSchemeProvider
-      colorScheme={colorScheme}
-      toggleColorScheme={toggleColorScheme}
+    <Box
+      style={(theme) => ({
+        display: "flex",
+        height: "100vh",
+        width: "100vw",
+
+        backgroundColor:
+          computedColorScheme === "dark"
+            ? theme.colors.dark[8]
+            : theme.colors.gray[1],
+      })}
     >
-      <MantineProvider
-        withNormalizeCSS
-        withGlobalStyles
-        theme={{ colorScheme }}
+      <Container
+        p="lg"
+        style={(theme) => ({
+          display: "flex",
+          flexDirection: "column",
+          gap: theme.spacing.md,
+        })}
+        size="xs"
       >
-        <Global
-          styles={(theme) => ({
-            body: {
-              backgroundColor:
-                theme.colorScheme === "dark"
-                  ? theme.colors.dark[8]
-                  : theme.colors.gray[1],
-            },
-          })}
-        />
-        <Container
-          pt="lg"
-          sx={(theme) => ({
-            height: "100vh",
-            display: "flex",
-            flexDirection: "column",
-            gap: theme.spacing.md,
-          })}
-          size="xs"
-        >
-          <Header />
-          <Body />
-        </Container>
-      </MantineProvider>
-    </ColorSchemeProvider>
+        <Header />
+        <Body />
+      </Container>
+    </Box>
   );
 };
 
