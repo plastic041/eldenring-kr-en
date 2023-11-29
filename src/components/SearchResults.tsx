@@ -1,10 +1,10 @@
 import { Box, Mark, Text } from "@mantine/core";
-import { ResultCard } from "./ResultCard";
+import { ResultCard } from "./ResultCard.tsx";
 import { Virtuoso, type Components } from "react-virtuoso";
-
-import type { DictEntry } from "../App";
-import type { CategorySubset } from "./Body";
 import { forwardRef } from "react";
+
+import type { DictEntry } from "../App.tsx";
+import type { CategorySubset } from "./Body.tsx";
 
 const List: Components["List"] = forwardRef(({ children, style }, ref) => {
   return (

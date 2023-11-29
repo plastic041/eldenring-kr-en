@@ -1,6 +1,6 @@
 import { Box, Button, TextInput, ActionIcon } from "@mantine/core";
 import { useState, useRef } from "react";
-import { MagnifierIcon, ClearIcon } from "../resources/Icons";
+import { MagnifierIcon, ClearIcon } from "../resources/Icons.tsx";
 import { getHotkeyHandler } from "@mantine/hooks";
 
 type SearchBarProps = {

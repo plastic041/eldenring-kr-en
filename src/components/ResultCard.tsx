@@ -7,10 +7,10 @@ import {
   Text,
   Tooltip,
 } from "@mantine/core";
-import { CheckIcon, ClipboardCopyIcon } from "../resources/Icons";
+import { CheckIcon, ClipboardCopyIcon } from "../resources/Icons.tsx";
 import { useClipboard } from "@mantine/hooks";
 
-import type { DictEntry } from "../App";
+import type { DictEntry } from "../App.tsx";
 import type { ReactNode } from "react";
 
 type WordWithCopyProps = {

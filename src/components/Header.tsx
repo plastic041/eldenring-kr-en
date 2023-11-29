@@ -1,5 +1,5 @@
 import { ActionIcon, Box, List, Text, Title, Tooltip, em } from "@mantine/core";
-import { GitHubIcon } from "../resources/Icons";
+import { GitHubIcon } from "../resources/Icons.tsx";
 import { useMediaQuery } from "@mantine/hooks";
 
 const Header = () => {

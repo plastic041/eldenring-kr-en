@@ -1,6 +1,6 @@
-import { CATEGORIES } from "../constants";
+import { CATEGORIES } from "../constants.ts";
 import { Chip, Group } from "@mantine/core";
-import type { CategorySubset } from "./Body";
+import type { CategorySubset } from "./Body.tsx";
 
 type ChipsProps = {
   categories: CategorySubset;
