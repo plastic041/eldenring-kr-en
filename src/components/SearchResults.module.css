@@ -1,7 +1,7 @@
-.scrollArea {
+.container {
   height: 100%;
+}
 
-  & > div > div {
-    height: 100%;
-  }
+.virtuoso {
+  height: 100%;
 }

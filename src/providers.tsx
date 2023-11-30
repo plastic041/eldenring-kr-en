@@ -1,8 +1,7 @@
 import { MantineProvider } from "@mantine/core";
+import type { ComponentChildren } from "preact";
 
-import type { ReactNode } from "react";
-
-export const Providers = ({ children }: { children: ReactNode }) => {
+export const Providers = ({ children }: { children: ComponentChildren }) => {
   return (
     <MantineProvider defaultColorScheme="auto">{children}</MantineProvider>
   );

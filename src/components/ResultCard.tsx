@@ -13,7 +13,7 @@ import { useClipboard } from "@mantine/hooks";
 import classes from "./ResultCard.module.css";
 
 import type { DictEntry } from "../App.tsx";
-import type { ReactNode } from "react";
+import type { ComponentChildren } from "preact";
 
 type WordWithCopyProps = {
   query: string;
@@ -48,7 +48,7 @@ const WordWithCopy = ({ query, word }: WordWithCopyProps) => {
 
 type DefinitionProps = {
   type: "한국어" | "영어" | "분류";
-  value: ReactNode;
+  value: ComponentChildren;
 };
 const Definition = ({ type: label, value }: DefinitionProps) => {
   return (

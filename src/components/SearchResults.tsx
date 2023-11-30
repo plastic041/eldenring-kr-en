@@ -1,12 +1,22 @@
 import { Box, Mark, Text } from "@mantine/core";
 import { ResultCard } from "./ResultCard.tsx";
 import { Virtuoso, type Components } from "react-virtuoso";
-import { forwardRef } from "react";
+import { forwardRef } from "preact/compat";
+import classes from "./SearchResults.module.css";
 
-import type { DictEntry } from "../App.tsx";
-import type { CategorySubset } from "./Body.tsx";
+import {
+  querySignal,
+  categoriesSignal,
+  resultsSignal,
+} from "src/signals/search.ts";
 
-const List: Components["List"] = forwardRef(({ children, style }, ref) => {
+import type { CSSProperties } from "@mantine/core";
+import type { ComponentChildren } from "preact";
+
+const List: Components["List"] = forwardRef<
+  HTMLDivElement,
+  { children: ComponentChildren; style: CSSProperties }
+>(({ children, style }, ref) => {
   return (
     <Box
       ref={ref}
@@ -26,49 +36,34 @@ const List: Components["List"] = forwardRef(({ children, style }, ref) => {
   );
 });
 
-type SearchResultsProps = {
-  results: DictEntry[];
-  query: string;
-  categories: CategorySubset;
-};
-export function SearchResults({
-  results,
-  query,
-  categories,
-}: SearchResultsProps) {
+export function SearchResults() {
   return (
-    <Box
-      style={{
-        height: "100%",
-      }}
-    >
-      {results.length > 0 ? (
+    <Box className={classes.container}>
+      {resultsSignal.value.length > 0 ? (
         // 검색 결과가 있을 때
         <Virtuoso
-          style={{ height: "100%" }}
-          totalCount={results.length}
-          data={results}
+          className={classes.virtuoso}
+          totalCount={resultsSignal.value.length}
+          data={resultsSignal.value}
           overscan={400}
           itemContent={(_, dictEntry) => (
             <ResultCard
               key={`${dictEntry.ko}-${dictEntry.en}`}
-              query={query}
+              query={querySignal.value}
               dictEntry={dictEntry}
             />
           )}
-          components={{
-            List,
-          }}
+          components={{ List }}
         />
-      ) : categories.length === 0 ? (
+      ) : categoriesSignal.value.length === 0 ? (
         // 카테고리 선택이 없을 때
         <Text size="md" ta="center">
           카테고리를 하나 이상 선택해주세요.
         </Text>
-      ) : query ? (
+      ) : querySignal.value ? (
         // 검색 결과가 없을 때
         <Text size="md" ta="center">
-          <Mark>{query}</Mark>에 대한 검색 결과가 없습니다.
+          <Mark>{querySignal.value}</Mark>에 대한 검색 결과가 없습니다.
         </Text>
       ) : (
         // 검색어가 없을 때

@@ -1,33 +1,41 @@
 import { Box, Button, TextInput, ActionIcon } from "@mantine/core";
-import { useState, useRef } from "react";
+import { createRef } from "preact";
+import { signal } from "@preact/signals";
 import { MagnifierIcon, ClearIcon } from "../resources/Icons.tsx";
 import { getHotkeyHandler } from "@mantine/hooks";
+import { querySignal } from "src/signals/search.ts";
 import classes from "./SearchBar.module.css";
 
-type SearchBarProps = {
-  onSetQuery: (value: string) => void;
-};
-export function SearchBar({ onSetQuery }: SearchBarProps) {
-  const [value, setValue] = useState("");
-  const inputRef = useRef<HTMLInputElement>(null);
+import type { ChangeEvent } from "preact/compat";
+
+const text = signal("");
+
+export function SearchBar() {
+  const ref = createRef<HTMLInputElement>();
+
+  function clear() {
+    text.value = "";
+    querySignal.value = text.value;
+    ref.current?.focus();
+  }
+
+  function search() {
+    querySignal.value = text.value;
+  }
 
   return (
     <Box className={classes.searchBar}>
       <TextInput
         className={classes.input}
-        ref={inputRef}
+        ref={ref}
         aria-label="검색어 입력"
         placeholder="한국어나 영어로 검색"
         leftSection={<MagnifierIcon />}
         rightSection={
-          value && (
+          text.value.length > 0 && (
             <ActionIcon
               variant="transparent"
-              onClick={() => {
-                setValue("");
-                onSetQuery("");
-                inputRef.current?.focus();
-              }}
+              onClick={clear}
               title="검색어 지우기"
               aria-label="검색어 지우기"
             >
@@ -35,11 +43,13 @@ export function SearchBar({ onSetQuery }: SearchBarProps) {
             </ActionIcon>
           )
         }
-        value={value}
-        onChange={(e) => setValue(e.currentTarget.value)}
-        onKeyDown={getHotkeyHandler([["Enter", () => onSetQuery(value)]])}
+        value={text}
+        onChange={(e: ChangeEvent<HTMLInputElement>) =>
+          (text.value = e.currentTarget.value)
+        }
+        onKeyDown={getHotkeyHandler([["Enter", search]])}
       />
-      <Button className={classes.button} onClick={() => onSetQuery(value)}>
+      <Button className={classes.button} onClick={search}>
         검색
       </Button>
     </Box>

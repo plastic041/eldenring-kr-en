@@ -1,6 +1,5 @@
 import { Box, Container } from "@mantine/core";
-
-import { lazy, Suspense } from "react";
+import { lazy, Suspense } from "preact/compat";
 import { Header } from "./components/Header.tsx";
 import classes from "./App.module.css";
 

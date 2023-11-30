@@ -1,17 +1,15 @@
 import { CATEGORIES } from "../constants.ts";
 import { Chip, Group } from "@mantine/core";
+import { categoriesSignal } from "src/signals/search.ts";
+
 import type { CategorySubset } from "./Body.tsx";
 
-type ChipsProps = {
-  categories: CategorySubset;
-  setCategories: (categories: CategorySubset) => void;
-};
-export function Chips({ categories, setCategories }: ChipsProps) {
+export function Chips() {
   return (
     <Chip.Group
       multiple
-      defaultValue={categories}
-      onChange={(values) => setCategories(values as CategorySubset)}
+      defaultValue={categoriesSignal.value}
+      onChange={(values) => (categoriesSignal.value = values as CategorySubset)}
     >
       <Group gap="xs">
         {CATEGORIES.map((category) => (
