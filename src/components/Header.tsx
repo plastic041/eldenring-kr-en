@@ -13,7 +13,7 @@ export const Header = () => {
           className={classes.headerLogoTitle}
           size={isMobile ? "h2" : "h1"}
         >
-          엘든링 한영사전
+          엘든 링 한영사전
         </Title>
         <Text size="xs" c="dimmed">
           @plastik041
