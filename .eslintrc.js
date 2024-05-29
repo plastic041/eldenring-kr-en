@@ -16,8 +16,10 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint"],
-  rules: {},
+  plugins: ["react", "@typescript-eslint", "eslint-plugin-react-compiler"],
+  rules: {
+    "react-compiler/react-compiler": "error",
+  },
   react: {
     version: "detect",
   },

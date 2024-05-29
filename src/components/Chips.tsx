@@ -2,11 +2,14 @@ import { CATEGORIES } from "../constants.ts";
 import { Chip, Group } from "@mantine/core";
 import type { CategorySubset } from "./Body.tsx";
 
-type ChipsProps = {
+type CategoryChipsProps = {
   categories: CategorySubset;
   setCategories: (categories: CategorySubset) => void;
 };
-export function Chips({ categories, setCategories }: ChipsProps) {
+export function CategoryChips({
+  categories,
+  setCategories,
+}: CategoryChipsProps) {
   return (
     <Chip.Group
       multiple

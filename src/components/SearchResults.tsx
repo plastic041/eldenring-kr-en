@@ -1,30 +1,10 @@
 import { Box, Mark, Text } from "@mantine/core";
 import { ResultCard } from "./ResultCard.tsx";
-import { Virtuoso, type Components } from "react-virtuoso";
-import { forwardRef } from "react";
+import { VList } from "virtua";
+import classes from "./SearchResults.module.css";
 
 import type { DictEntry } from "../App.tsx";
 import type { CategorySubset } from "./Body.tsx";
-
-const List: Components["List"] = forwardRef(({ children, style }, ref) => {
-  return (
-    <Box
-      ref={ref}
-      style={(theme) => ({
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "stretch",
-        gap: theme.spacing.md,
-        padding: "0 0 1rem 0",
-        height: "100%",
-        margin: 0,
-        ...style,
-      })}
-    >
-      {children}
-    </Box>
-  );
-});
 
 type SearchResultsProps = {
   results: DictEntry[];
@@ -44,22 +24,13 @@ export function SearchResults({
     >
       {results.length > 0 ? (
         // 검색 결과가 있을 때
-        <Virtuoso
-          style={{ height: "100%" }}
-          totalCount={results.length}
-          data={results}
-          overscan={400}
-          itemContent={(_, dictEntry) => (
-            <ResultCard
-              key={`${dictEntry.ko}-${dictEntry.en}`}
-              query={query}
-              dictEntry={dictEntry}
-            />
-          )}
-          components={{
-            List,
-          }}
-        />
+        <VList style={{ height: "100%" }} className={classes.list}>
+          {results.map((result) => (
+            <Box className={classes.item}>
+              <ResultCard key={result.ko} dictEntry={result} query={query} />
+            </Box>
+          ))}
+        </VList>
       ) : categories.length === 0 ? (
         // 카테고리 선택이 없을 때
         <Text size="md" ta="center">

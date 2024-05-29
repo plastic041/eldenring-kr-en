@@ -1,18 +1,36 @@
 import { Box, Button, TextInput, ActionIcon } from "@mantine/core";
 import { useState, useRef } from "react";
 import { MagnifierIcon, ClearIcon } from "../resources/Icons.tsx";
-import { getHotkeyHandler } from "@mantine/hooks";
 import classes from "./SearchBar.module.css";
 
 type SearchBarProps = {
+  query: string;
   onSetQuery: (value: string) => void;
 };
-export function SearchBar({ onSetQuery }: SearchBarProps) {
+export function SearchBar({ query, onSetQuery }: SearchBarProps) {
   const [value, setValue] = useState("");
+  const [isClean, setIsClean] = useState(true);
   const inputRef = useRef<HTMLInputElement>(null);
 
+  function handleSetValue(value: string) {
+    setIsClean(false);
+    setValue(value);
+  }
+
+  function handleSetQuery(value: string) {
+    setIsClean(true);
+    onSetQuery(value);
+  }
+
   return (
-    <Box className={classes.searchBar}>
+    <Box
+      component="form"
+      className={classes.searchBar}
+      onSubmit={(e) => {
+        e.preventDefault();
+        handleSetQuery(value);
+      }}
+    >
       <TextInput
         className={classes.input}
         ref={inputRef}
@@ -36,10 +54,9 @@ export function SearchBar({ onSetQuery }: SearchBarProps) {
           )
         }
         value={value}
-        onChange={(e) => setValue(e.currentTarget.value)}
-        onKeyDown={getHotkeyHandler([["Enter", () => onSetQuery(value)]])}
+        onChange={(e) => handleSetValue(e.currentTarget.value)}
       />
-      <Button className={classes.button} onClick={() => onSetQuery(value)}>
+      <Button type="submit" className={classes.button} disabled={isClean}>
         검색
       </Button>
     </Box>

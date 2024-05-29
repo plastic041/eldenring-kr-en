@@ -3,7 +3,7 @@ import dict from "../resources/dict.json";
 import { CATEGORIES } from "../constants.ts";
 import { Box } from "@mantine/core";
 import { useState, useTransition } from "react";
-import { Chips } from "./Chips.tsx";
+import { CategoryChips } from "./Chips.tsx";
 import { SearchBar } from "./SearchBar.tsx";
 import { SearchResults } from "./SearchResults.tsx";
 import classes from "./Body.module.css";
@@ -51,8 +51,8 @@ const Body = () => {
 
   return (
     <Box className={classes.main}>
-      <SearchBar onSetQuery={setQueryWithTransition} />
-      <Chips
+      <SearchBar query={query} onSetQuery={setQueryWithTransition} />
+      <CategoryChips
         categories={categories}
         setCategories={setCategoriesWithTransition}
       />
